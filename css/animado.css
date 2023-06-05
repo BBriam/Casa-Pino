@@ -1,0 +1,54 @@
+.marco_slider {
+  width: 1349px;
+  height: 304px;
+  overflow: hidden;
+  position: relative;
+}
+
+.marco_slider ul {
+  display: flex;
+  padding: 0;
+  width: 400%;
+  animation: animado 16s infinite ease-in-out;
+}
+
+.marco_slider li {
+  list-style: none;
+  width: 100%;
+  position: relative;
+}
+
+.marco_slider img {
+  width: 100%;
+}
+
+.marco_slider:hover ul {
+  animation-play-state: paused;
+}
+
+
+@keyframes animado {
+  0%{transform: translateX(0%);}
+  7.14%{transform: translateX(0%);}
+  28.57%{transform: translateX(-25%);}
+  42.85%{transform: translateX(-25%);}
+  57.14%{transform: translateX(-50%);}
+  71.42%{transform: translateX(-50%);}
+  92.86%{transform: translateX(-75%);}
+  100%{transform: translateX(-75%);}
+}
+
+
+
+@keyframes transicion {
+  0%{margin-left: 0%;}
+  7.14%{margin-left: 0%;}
+  28.57%{margin-left: -100%;}
+  42.85%{margin-left: -100%;}
+  57.14%{margin-left: -200%;}
+  71.42%{margin-left: -200%;}
+  92.86%{margin-left: -300%;}
+  100%{margin-left: -300%;}
+}
+
+
