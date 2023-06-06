@@ -51,6 +51,40 @@ body {
 
   --alavis: 214px;
   --ubavis: 30px;
+
+  --calt1: hsl(210, 100%, 40%);
+  --calt2: hsl(0, 100%, 90%);
+  --calt3: hsl(120, 100%, 90%);
+  --calt4: hsl(120, 100%, 40%);
+  --calt5: hsl(0, 100%, 40%);
+  --calt6: hsl(0, 100%, 50%);
+  --calt7: hsl(0, 0%, 100%);
+
+  --csombra: hsla(0, 0%, 0%, 0.12);
+  --csombra2: hsla(0, 0%, 100%, 0.8);
+  --csombra3: hsla(175, 55%, 55%, 0.4);
+
+
+  --cbase1: hsl(175, 100%, 16%);
+  --cbase2: hsl(175, 100%, 32%);
+  --cbase4: hsl(175, 100%, 42%);
+  --cbase3: hsl(175, 100%, 50%);
+  --cbase5: hsl(175, 100%, 59%);
+  --cbase6: hsl(175, 100%, 47%);
+  --cbase7: hsl(175, 100%, 55%);
+  --cbase8: hsl(175, 100%, 40%);
+  --cbase9: hsl(175, 100%, 40%);
+  --cbase10: hsl(175, 45%, 66%);
+  --cbase11: hsl(0, 0%, 100%);
+  --cbase12: hsl(0, 0%, 20%);
+  --cbase13: hsl(0, 0%, 50%);
+  --cbase14: hsl(0, 0%, 99%);
+  --cbase15: hsl(0, 0%, 92%);
+  --cbase16: hsl(0, 0%, 33%);
+  --cbase17: hsl(0, 0%, 97%);
+  --cbase18: hsl(175, 55%, 42%);
+  --cbase19: hsl(0, 0%, 75%);
+  --bsrebb: hsl(120, 100%, 90%);
 }
 
 body a {
@@ -76,16 +110,15 @@ body p {
 }
 
 .borde_forma {
-  box-shadow: 5px 10px 18px rgba(0, 0, 0, 0.12);
+  box-shadow: 5px 10px 18px var(--csombra);
 }
 
 .header {
-  background-color: rgb(205, 168, 96);
+  background-color: var(--cbase1);
   grid-area: header;
 }
 
 .slider {
-  /* background-color: rgb(0, 192, 255); */
   grid-area: slider;
   overflow: hidden;
   position: relative;
@@ -94,19 +127,17 @@ body p {
 .nav {
   z-index: 10;
   margin-top: -25px;
-  /* background-color: rgb(213, 235, 15); */
   grid-area: nav;
 }
 
 .bloque, .form_regi_tot, .form_logi_tot, .form_cont_tot, .bloque_nosotros {
   margin: -25px 0 0 var(--margiz);
   width: var(--pagint);
-  /* background-color: rgb(0, 192, 0); */
   grid-area: bloque;
 }
 
 .footer {
-  background-color: rgb(84, 44, 108);
+  background-color: var(--cbase2);
   grid-area: footer;
 }
 
@@ -291,63 +322,63 @@ body p {
 }
 
 .purpura {
-  color: rgb(84, 44, 108);
+  color: var(--cbase2);
 }
 
 .lavanda {
-  color: rgb(136, 99, 158);
+  color: var(--cbase3);
 }
 
 .morado {
-  color: rgb(134, 48, 167);
+  color: var(--cbase4);
 }
 
 .fucsia {
-  color: rgb(245, 54, 135);
+  color: var(--cbase5);
 }
 
 .magenta {
-  color: rgb(199, 41, 142);
+  color: var(--cbase6);
 }
 
 .beige {
-  color: rgb(205, 168, 96);
+  color: var(--cbase1);
 }
 
 .rosado {
-  color: rgb(204, 78, 174);
+  color: var(--cbase7);
 }
 
 .rojo204 {
-  color: rgb(204, 0, 0);
+  color: var(--cbase8);
 }
 
 .verde204 {
-  color: rgb(0, 204, 0);
+  color: var(--cbase9);
 }
 
 .uva {
-  color: rgb(207, 128, 162);
+  color: var(--cbase10);
 }
 
 .blanco {
-  color: rgb(255, 255, 255);
+  color: var(--cbase11);
 }
 
 .blanco80 {
-  color: rgba(255, 255, 255, 0.8);
+  color: var(--csombra2);
 }
 
 .gris51 {
-  color: rgb(51, 51, 51);
+  color: var(--cbase12);
 }
 
 .gris128 {
-  color: rgb(128, 128, 128);
+  color: var(--cbase13);
 }
 
 .gris252 {
-  color: rgb(252, 252, 252);
+  color: var(--cbase14);
 }
 
 
@@ -368,12 +399,12 @@ body p {
 
 
 .malla_2_header {
-  /* justify-content: center; */
+  
   align-items: center;
   height: 40px;
   margin: 0 0 0 var(--margiz);
   width: var(--pagint);
-  background-color: rgb(205, 168, 96);
+  background-color: var(--cbase1);
   display:grid;
   grid-template:
   "horario registro" auto /
@@ -383,8 +414,6 @@ body p {
 .malla_3_horario {
   align-items: center;
     margin: 0;
-  /* background-color: blue; */
-  /* background-color: rgb(250, 246, 3); */
   display:grid;
   grid-area: horario;
   grid-template:
@@ -396,30 +425,26 @@ body p {
   margin: 0;
   text-align: right;
   grid-area: envio;
-  /* background-color: rgb(218, 19, 19); */
 }
 
 .atencion {
   margin: 0;
   text-align: center;
   grid-area: atencion;
-  /* background-color: rgb(20, 34, 231); */
 }
 
 .horar {
   margin: 0;
   text-align: left;
   grid-area: horar;
-  /* background-color: rgb(95, 138, 16); */
 }
 
 .malla_2_registro {
   justify-content: center;
   align-items: center;
   height: 40px;
-  /* padding: 5px; */
   gap: 5px;
-  background-color: rgb(255, 255, 255);
+  background-color: var(--cbase11);
   display:grid;
   grid-area: registro;
   grid-template:
@@ -431,7 +456,6 @@ body p {
   margin: 0;
   text-align: right;
   grid-area: login;
-  /* background-color: rgb(231, 20, 73); */
 }
 
 .registrarse {
@@ -441,7 +465,7 @@ body p {
 }
 
 .registrarse:hover, .login:hover {
-  color: rgb(204, 78, 174);
+  color: var(--cbase7);
   transition: all 0.1s ease-in-out;
 }
 
@@ -485,7 +509,7 @@ body p {
   width: var(--anbona);
   height: var(--alslid);
   cursor: pointer;
-  color: rgba(255, 255, 255);
+  color: var(--cbase11);
   opacity: 0.5;
 }
 
@@ -524,7 +548,6 @@ body p {
   margin-left: var(--margiz);
   top: var(--ubavis);
   left: 0;
-  /* background-color: rgba(0, 255, 85, 0.842); */
   display:grid;
   grid-template:
   "logo promocion" auto /
@@ -546,13 +569,13 @@ body p {
 
 .dib1 {
   height: 124px;
-  background-color: rgb(255, 255, 255);
+  background-color: var(--cbase11);
   padding: 19px 0 0 19px;
 }
 
 .dib2 {
   height: 90px;
-  background-color: rgb(84, 44, 108);
+  background-color: var(--cbase2);
   padding: 5px 0 0 19px;
 }
 
@@ -619,13 +642,13 @@ body p {
 }
 
 .prom_boton:hover, .prom_boton2:hover {
-  color: rgb(204, 78, 174);
+  color: var(--cbase7);
   background-color: white;
   transition: all 0.1s ease-in-out;
 }
 
 /* .prom_boton2:hover ver_prod, .prom_boton:hover ver_prod{
-  color: rgb(204, 78, 174);
+  color: var(--cbase7);
 } */
 
 /*********************************** Area de las animaciones de la barra navegacion*/
@@ -677,7 +700,7 @@ body p {
   border-radius: 5px;
   border-style: solid;
   border-width: 1px;
-  border-color: rgb(199, 41, 142);
+  border-color: var(--cbase6);
   transition: all 0.1s ease-in-out;
 }
 
@@ -685,7 +708,7 @@ body p {
   border-radius: 5px;
   border-style: solid;
   border-width: 1px;
-  border-color: rgb(136, 99, 158);
+  border-color: var(--cbase3);
   transition: all 0.1s ease-in-out;
 }
 
@@ -693,7 +716,7 @@ body p {
   border-radius: 5px;
   border-style: solid;
   border-width: 1px;
-  border-color: rgb(205, 168, 96);
+  border-color: var(--cbase1);
   transition: all 0.1s ease-in-out;
 }
 
@@ -701,13 +724,11 @@ body p {
   border-radius: 5px;
   border-style: solid;
   border-width: 1px;
-  border-color: rgb(245, 54, 135);
+  border-color: var(--cbase5);
   transition: all 0.1s ease-in-out;
 }
 
 .malla_2_bloque {
-  /* padding: 5px; */
-  /* background-color: rgb(3, 252, 86); */
   display:grid;
   grid-template:
   "malla_1_aside malla_3_main" auto /
@@ -719,7 +740,6 @@ body p {
   justify-content: center;
   align-items: start;
   padding: 0 0 75px 0;
-  /* background-color: rgb(235, 9, 9); */
   display:grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: auto;
@@ -733,10 +753,7 @@ body p {
   justify-content: center;
   text-align: center;
   padding-top: 5px;
-  /* background-color: rgb(0, 255, 21);  */
   display:grid;
-  /* grid-template-rows: 210px, 20px; */
-  /* grid-template-rows: 210px, 50px; */
 }
 
 .prod_item {
@@ -767,15 +784,15 @@ i.lupa {
   font-size: 20px;
   border-radius: 50%;
   text-align:center;
-  color: rgb(205, 168, 96);
-  background-color: rgb(255, 255, 255);
+  color: var(--cbase1);
+  background-color: var(--cbase11);
   opacity: 0;
   transition: all 0.1s ease-in-out;
 }
 
 i.lupa:hover {
-  color: rgb(255, 255, 255);
-  background-color: rgb(204, 78, 174);
+  color: var(--cbase11);
+  background-color: var(--cbase7);
   opacity: 1;
   transition: all 0.1s ease-in-out;
 }
@@ -787,7 +804,7 @@ i.lupa:hover {
 }
 
 .overlay:hover {
-  background-color: rgba(204, 78, 174, 0.4);
+  background-color: var(--csombra3);
   transition: all 0.1s ease-in-out;
 }
 
@@ -802,7 +819,7 @@ i.lupa:hover {
 }
 
 .malla_1_categoria:hover a {
-  color: rgb(204, 78, 174);
+  color: var(--cbase7);
   transition: all 0.1s ease-in-out;
 }
 
@@ -815,10 +832,8 @@ i.lupa:hover {
 
 .malla_1_aside {
   height: 627px;
-  /* width: 348px; */
   justify-content: left;
   align-items: center;
-  /* background-color: rgb(255, 187, 0); */
   grid-area: malla_1_aside;
   display:grid;
   grid-template-rows: repeat(19, auto);
@@ -856,7 +871,7 @@ i.lupa:hover {
 .aside_cate_sub_tit {
   cursor: text;
   text-decoration: underline;
-  text-decoration-color: rgb(84, 44, 108);
+  text-decoration-color: var(--cbase2);
   text-decoration-thickness: 1px;
   text-decoration-style: solid;
 
@@ -869,7 +884,7 @@ i.lupa:hover {
 
 .aside_cate_sub_ele:hover {
   font-weight:700;
-  color: rgb(84, 44, 108);
+  color: var(--cbase2);
   transition: all 0.1s ease-in-out;
 }
 
@@ -968,16 +983,13 @@ i.lupa:hover {
 }
 
 .malla_2_form_regi {
-  /* justify-content: center; */
-  /* align-items: center; */
-  height: 408px; /*360 px*/
+  height: 408px;
   width: var(--ancform);
   margin: 0 0 0 var(--margformde);
-  /* background-color: rgb(204, 156, 0); */
   display:grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 72px;
-  gap: 12px 30px; /* 0 px*/
+  gap: 12px 30px;
 }
 
 .form_regi_g {
@@ -1049,20 +1061,19 @@ i.lupa:hover {
 .inp_gris {
   top: 0;
   left: 0;
-  /* position: absolute; */
-  background-color: rgb(235, 235, 235);
+  background-color: var(--cbase15);
   font-family: 'Poppins', sans-serif;
   font-size: 12px;
   cursor: text;
   padding: 0px 12px 0px 12px;
-  color: rgb(85, 85, 85);
+  color: var(--cbase16);
   border-color: none;
   border-width: 0;
   transition: all 0.1s ease-in-out;
 }
 
 .inp_gris:focus {
-  border: solid 1px rgb(0, 102, 204);
+  border: solid 1px var(--calt1);
   outline: none;
 }
 
@@ -1072,26 +1083,26 @@ i.lupa:hover {
   /* width: var(--ancform); */
   width: 100%;
   height: 300px;
-  background-color: rgb(235, 235, 235);
+  background-color: var(--cbase15);
   font-family: 'Poppins', sans-serif;
   font-size: 12px;
   cursor: text;
   padding: 0px 12px 0px 12px;
-  color: rgb(85, 85, 85);
+  color: var(--cbase16);
   border-color: none;
   border-width: 0;
   transition: all 0.1s ease-in-out;
 }
 
 .inp_gris_texto:focus {
-  border: solid 1px rgb(0, 102, 204);
+  border: solid 1px var(--calt1);
   outline: none;
 }
 
 .form_regi_e, .form_logi_e, .form_cont_e {
   display: none;
   height: 38px;
-  background-color: rgb(255, 204, 204);
+  background-color: var(--cbase19);
 }
 
 .form_cont_e_mensaje {
@@ -1101,7 +1112,7 @@ i.lupa:hover {
   position: absolute;
   display: none;
   height: 38px;
-  background-color: rgb(255, 204, 204);
+  background-color: var(--cbase19);
 }
 
 .form_regi_error, .form_logi_error, .form_cont_error {
@@ -1110,7 +1121,7 @@ i.lupa:hover {
   justify-content: center;
   height: 38px;
   border-radius: 4px;
-  background-color: rgb(255, 204, 204);
+  background-color: var(--cbase19);
   opacity: 0;
 }
 
@@ -1120,7 +1131,7 @@ i.lupa:hover {
   justify-content: center;
   height: 38px;
   border-radius: 4px;
-  background-color: rgb(204, 255, 204);
+  background-color: var(--calt3);
   opacity: 0;
 }
 
@@ -1129,22 +1140,22 @@ i.lupa:hover {
 }
 
 .inp_incorrecto {
-  border: solid 1px rgb(204, 0, 0);
+  border: solid 1px var(--cbase8);
   opacity: 1;
 }
 
 .inp_correcto {
-  border: solid 1px rgb(0, 204, 0);
+  border: solid 1px var(--cbase9);
   opacity: 1;
 }
 
 .icono_correcto {
-  color: rgba(0, 204, 0, 1);
+  color: var(--calt4);
   opacity: 1;
 }
 
 .icono_incorrecto {
-  color: rgba(204, 0, 0, 1);
+  color: var(--calt5);
   opacity: 1;
 }
 
@@ -1158,15 +1169,15 @@ i.lupa:hover {
   margin-bottom: 17px;
   width: 170px;
   height: 42px;
-  background-color: rgb(199, 41, 142);
+  background-color: var(--cbase6);
   border-radius: 4px;
   cursor: pointer;
 }
 
 .boton_enviar:hover {
-  color: rgb(199, 41, 142);
+  color: var(--cbase6);
   background-color: white;
-  border: 1px solid rgb(199, 41, 142);
+  border: 1px solid var(--cbase6);
   transition: all 0.1s ease-in-out;
 }
 
@@ -1188,8 +1199,6 @@ i.lupa:hover {
 .malla_1_form_logi {
   display: flex;
   justify-content: center;
-  /* background-color: rgb(5, 207, 55); */
-  /* align-items: center; */
   height: 221px;
   width: var(--ancform);
   margin: 33px 0 0 var(--margformde);
@@ -1249,12 +1258,9 @@ i.lupa:hover {
 
 
 .malla_2_form_cont {
-  /* justify-content: center; */
-  /* align-items: center; */
-  height: 324px; /*360 px*/
+  height: 324px;
   width: var(--ancform);
   margin: 0 0 0 var(--margformde);
-  /* background-color: rgb(204, 156, 0); */
   display:grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 72px;
@@ -1272,7 +1278,6 @@ i.lupa:hover {
   border-radius: 2px;
   width: var(--ancform);
   margin: 40px 0 40px var(--margformde);
-  /* background-color: rgb(0, 255, 170); */
   display:grid;
   grid-template-columns: 5fr 5fr;
   grid-template-rows: 100%;
@@ -1281,7 +1286,7 @@ i.lupa:hover {
 }
 
 .datos_presentacion {
-  background-color: rgb(252, 252, 252);
+  background-color: var(--cbase14);
   border-radius: 10px;
   padding-left: 15px;
   height: 100%;
@@ -1294,7 +1299,6 @@ i.lupa:hover {
 }
 
 .mapa_presentacion {
-  /* background-color: rgb(92, 54, 54); */
   border-radius: 10px;
   overflow: hidden;
 }
@@ -1306,17 +1310,12 @@ i.lupa:hover {
 
 .dato_presentacion:hover {
   text-decoration: underline;
-  text-decoration-color: rgb(84, 44, 108);
+  text-decoration-color: var(--cbase2);
   text-decoration-thickness: 2px;
   text-decoration-style: solid;
 }
 
 .envolelemredes {
-  /* height: 275px;
-  border-radius: 2px;
-  width: var(--ancform);
-  margin: 0 0 12px var(--margformde); */
-  /* background-color: rgb(0, 255, 170); */
   text-align: center;
   display:grid;
   grid-template-columns: 5fr 5fr;
@@ -1327,7 +1326,7 @@ i.lupa:hover {
 /*******************************************************************************************/
 
 .prod_precio:hover {
-  color: rgb(128, 128, 128);
+  color: var(--cbase13);
 }
 
 /* .prod_precio {
@@ -1337,7 +1336,6 @@ i.lupa:hover {
 .prod_nombre {
   height: 50px;
   width: 240px;
-  /* background-color: rgb(248, 182, 0); */
 }
 
 /*******************************************************************************************/
@@ -1345,22 +1343,17 @@ i.lupa:hover {
 
 
 .malla_2_detalle {
-  /* justify-content: center; */
-  /* align-items: center; */
-  /* height: 408px;  */
   width: var(--ancform);
   margin: 0 0 0 var(--margformde);
-  /* background-color: rgb(140, 0, 255); */
   display:grid;
   grid-template-columns: 1fr 1fr;
-  /* grid-template-rows: 72px; */
-  gap: 0px 30px; /* 0 px*/
+  gap: 0px 30px;
 }
 
 .detalles_galeria {
   width: 100%;
   height: 600px;
-  /* background-color: rgb(248, 248, 248); */
+  /* background-color: var(--cbase17); */
   border-radius: 5px;
   overflow: hidden;
 }
@@ -1369,20 +1362,16 @@ i.lupa:hover {
   height: 500px;
   display: flex;
   justify-content: center;
-  /* background-color: yellow; */
+  
 }
 
 .malla_4_detalle_imap {
-  /* justify-content: center; */
-  /* align-items: center; */
-  /* height: 408px;  */
   padding: 5px;
   width: 100%;
   margin-top: 5px;
   margin-bottom: 5px;
   border-radius: 5px;
-  background-color: rgb(248, 248, 248);
-  /* background-color: rgb(11, 130, 185); */
+  background-color: var(--cbase17);
   display:grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;;
   gap: 0 5px;
@@ -1390,7 +1379,7 @@ i.lupa:hover {
 
 .imagen_peq {
   display: flex;
-  background-color: rgb(255, 255, 255);
+  background-color: var(--cbase11);
   justify-content: center;
   height: 80px;
   width: auto;
@@ -1399,20 +1388,19 @@ i.lupa:hover {
 }
 
 .imagen_peq:hover {
-  border: 1px solid rgb(136, 99, 158);
+  border: 1px solid var(--cbase3);
 }
 
 .envoltorio_tam_tip_compra {
   position: relative;
   width: 100%;
-  background-color: red;
+  background-color: var(--calt6);
 }
 
 .detalle_datos {
   padding: 10px;
-  background-color: rgb(248, 248, 248);
+  background-color: var(--cbase17);
   border-radius: 5px;
-  /* border-color: 1px solid blue; */
 }
 
 .boton_consulta {
@@ -1424,7 +1412,7 @@ i.lupa:hover {
   margin-bottom: 17px;
   width: 220px;
   height: 40px;
-  background-color: rgb(199, 41, 142);
+  background-color: var(--cbase6);
   border-radius: 4px;
   cursor: pointer;
   display: flex;
@@ -1435,29 +1423,28 @@ i.lupa:hover {
 }
 
 .boton_consulta:hover {
-  color: rgb(199, 41, 142);
+  color: var(--cbase6);
   background-color: white;
-  border: 1px solid rgb(199, 41, 142);
+  border: 1px solid var(--cbase6);
   transition: all 0.1s ease-in-out;
 }
 
 .detalle_descripcion {
   width: var(--ancform);
   margin: 10px 0 50px var(--margformde);
-  /* background-color: rgb(0, 255, 192); */
   border-radius: 5px;
   overflow: hidden;
   padding: 5px;
-  border: 1px solid rgb(192, 192, 192);
+  border: 1px solid var(--cbase19);
 }
 
 .detalle_descripcion_titu {
   width: 140px;
   text-align: center;
-  background-color: rgb(248, 248, 248);
+  background-color: var(--cbase17);
   border-top-right-radius: 3px;
   border-top-left-radius: 3px;
-  border-bottom: 2px solid rgb(134, 48, 167);
+  border-bottom: 2px solid var(--calt2);
 }
 
 .detalle_descripcion_cont {
@@ -1466,18 +1453,18 @@ i.lupa:hover {
   margin-top: 5px;
   border-bottom-right-radius: 3px;
   border-bottom-left-radius: 3px;
-  border-top: 1px solid rgb(192, 192, 192);
+  border-top: 1px solid var(--cbase19);
 }
 
 .detalle_precio {
   padding-bottom: -5px;
-  border-bottom: 1px solid rgb(192, 192, 192);
+  border-bottom: 1px solid var(--cbase19);
   margin-bottom: 15px;
 }
 
 .select_tam, .select_col {
   position: absolute;
-  border: 1px solid rgb(134, 48, 167);
+  border: 1px solid var(--calt2);
   border-radius: 5px;
   top: 25%;
   left: 50%;
@@ -1495,7 +1482,7 @@ i.lupa:hover {
 
 .select_tam:focus, .select_col:focus {
   outline: none;
-  border: 2px solid rgb(245, 54, 135);
+  border: 2px solid var(--cbase5);
 }
 
 
@@ -1614,10 +1601,9 @@ body {
   "header" var(--alhead)
   "slider" var(--alslid)
   "nav" auto
-  "bloque" auto/*var(--albloq480)*/
+  "bloque" auto/
   "footer" var(--alfoot) /
   100%;
-  /* background-color: rgb(0, 238, 255); */
 }
 
 .header {
@@ -1626,7 +1612,6 @@ body {
 }
 
 .slider {
-  /* background-color: rgb(0, 192, 255); */
   grid-area: slider;
   overflow: hidden;
   position: relative;
@@ -1635,22 +1620,17 @@ body {
 .nav {
   z-index: 10;
   margin-top: 0;
-  /* background-color: rgb(213, 235, 15); */
   grid-area: nav;
 }
 
 .bloque, .form_regi_tot, .form_logi_tot, .form_cont_tot, .bloque_nosotros {
-  /* margin: 0px 0 0 var(--margiz); */
   margin: 0 0 0 0;
-  /* width: var(--pagint); */
   width: var(--anchotot);
-  /* height: 2000px; */
-  /* background-color: rgb(0, 192, 0); */
   grid-area: bloque;
 }
 
 .footer {
-  background-color: rgb(84, 44, 108);
+  background-color: var(--cbase2);
   grid-area: footer;
 }
 
@@ -1659,7 +1639,7 @@ body {
 .malla_2_header {
   width: 100%;
   margin: 0;
-  background-color: rgb(205, 168, 96);
+  background-color: var(--cbase1);
   gap: 0;
   display:grid;
   grid-template:
@@ -1681,7 +1661,7 @@ body {
 
 .malla_2_registro {
   gap: 0;
-  background-color: rgb(255, 255, 255);
+  background-color: var(--cbase11);
   display:grid;
   grid-area: registro;
   grid-template:
@@ -1726,7 +1706,7 @@ body {
 }
 
 .registrarse:hover, .login:hover {
-  color: rgb(204, 78, 174);
+  color: var(--cbase7);
   transition: all 0.1s ease-in-out;
 }
 
@@ -1767,7 +1747,7 @@ body {
   width: var(--anbona);
   height: var(--alslid);
   cursor: pointer;
-  color: rgba(255, 255, 255);
+  color: var(--calt7);
   opacity: 0.5;
 }
 
@@ -1830,14 +1810,14 @@ body {
 
 .dib1 {
   height: 44px;
-  background-color: rgb(255, 255, 255);
+  background-color: var(--cbase11);
   padding: 7px 0 0 7px;
 }
 
 .dib2 {
   font-size: 10px;
   height: 56px;
-  background-color: rgb(84, 44, 108);
+  background-color: var(--cbase2);
   padding: 2px 0 0 7px;
 }
 
@@ -1923,7 +1903,7 @@ body {
 }
 
 .prom_boton:hover, .prom_boton2:hover {
-  color: rgb(204, 78, 174);
+  color: var(--cbase7);
   background-color: white;
   transition: all 0.1s ease-in-out;
 }
@@ -1946,7 +1926,7 @@ body {
 .nav_hamburguesa {
   display: flex;
   flex-direction: row;
-  background-color: rgb(204, 78, 174);
+  background-color: var(--cbase7);
   gap: 0 10px;
 }
 
@@ -1965,7 +1945,7 @@ body {
   width: var(--anchotot);
   display: flex;
   flex-direction: row;
-  background-color: rgb(134, 48, 167);
+  background-color: var(--calt2);
   gap: 0 10px;
 }
 
@@ -1982,7 +1962,7 @@ body {
   width: var(--anchotot);
   display: flex;
   flex-direction: row;
-  background-color: rgb(134, 48, 167);
+  background-color: var(--calt2);
   gap: 0 10px;
 }
 
@@ -2013,7 +1993,7 @@ body {
   width: 100%;
   height: 150px;
   border-radius: 0;
-  background-color: rgb(134, 48, 167);
+  background-color: var(--calt2);
   display:grid;
   grid-template:
   "productosid" 1fr
@@ -2044,7 +2024,7 @@ body {
   border-radius: 5px;
   border-style: solid;
   border-width: 1px;
-  color: rgb(134, 48, 167);
+  color: var(--calt2);
   background-color: white;
   transition: all 0.1s ease-in-out;
 }
@@ -2054,14 +2034,14 @@ body {
   border-radius: 5px;
   border-style: solid;
   border-width: 1px; */
-  color: rgb(134, 48, 167);
+  color: var(--calt2);
   /* background-color: white; */
   transition: all 0.1s ease-in-out;
 }
 
 /* #productosid:hover, #nosotrosid:hover, #ofertasid:hover, #contactoid:hover{
   border-radius: 5px;
-  color: rgb(134, 48, 167);
+  color: var(--calt2);
   background-color: white;
   border: none;
   transition: all 0.1s ease-in-out;
@@ -2079,7 +2059,7 @@ body {
   border-radius: 5px;
   border-style: solid;
   border-width: 1px;
-  color: rgb(134, 48, 167);
+  color: var(--calt2);
   background-color: white;
   transition: all 0.1s ease-in-out;
 }
@@ -2088,7 +2068,7 @@ body {
   border-radius: 5px;
   border-style: solid;
   border-width: 1px;
-  border-color: rgb(136, 99, 158);
+  border-color: var(--cbase3);
   transition: all 0.1s ease-in-out;
 }
 
@@ -2096,7 +2076,7 @@ body {
   border-radius: 5px;
   border-style: solid;
   border-width: 1px;
-  border-color: rgb(205, 168, 96);
+  border-color: var(--cbase1);
   transition: all 0.1s ease-in-out;
 }
 
@@ -2104,7 +2084,7 @@ body {
   border-radius: 5px;
   border-style: solid;
   border-width: 1px;
-  border-color: rgb(245, 54, 135);
+  border-color: var(--cbase5);
   transition: all 0.1s ease-in-out;
 } */
 
@@ -2129,14 +2109,10 @@ body {
 }
 
 .malla_3_main {
-  /* position: absolute;
-  top: 0;
-  left: 0; */
   grid-area: malla_3_main;
   justify-content: center;
   align-items: start;
   padding: 0 0 75px 0;
-  /* background-color: rgb(235, 9, 9); */
   display:grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: auto;
@@ -2183,15 +2159,15 @@ i.lupa {
   font-size: 20px;
   border-radius: 50%;
   text-align:center;
-  color: rgb(205, 168, 96);
-  background-color: rgb(255, 255, 255);
+  color: var(--cbase1);
+  background-color: var(--cbase11);
   opacity: 0;
   transition: all 0.1s ease-in-out;
 }
 
 i.lupa:hover {
-  color: rgb(255, 255, 255);
-  background-color: rgb(204, 78, 174);
+  color: var(--cbase11);
+  background-color: var(--cbase7);
   opacity: 1;
   transition: all 0.1s ease-in-out;
 }
@@ -2205,7 +2181,7 @@ i.lupa:hover {
 }
 
 .overlay:hover {
-  background-color: rgba(204, 78, 174, 0.4);
+  background-color: var(--csombra3);
   transition: all 0.1s ease-in-out;
 }
 
@@ -2220,7 +2196,7 @@ i.lupa:hover {
 }
 
 .malla_1_categoria:hover a {
-  color: rgb(204, 78, 174);
+  color: var(--cbase7);
   transition: all 0.1s ease-in-out;
 }
 
@@ -2250,7 +2226,7 @@ i.lupa:hover {
 
   justify-content: left;
   align-items: center;
-  background-color: rgb(255, 255, 255);
+  background-color: var(--cbase11);
   grid-area: malla_1_aside;
   display:grid;
   grid-template-rows: repeat(19, auto);
@@ -2291,7 +2267,7 @@ i.lupa:hover {
 .aside_cate_sub_tit {
   cursor: text;
   text-decoration: underline;
-  text-decoration-color: rgb(84, 44, 108);
+  text-decoration-color: var(--cbase2);
   text-decoration-thickness: 1px;
   text-decoration-style: solid;
   font-size: 16px;
@@ -2305,7 +2281,7 @@ i.lupa:hover {
 
 .aside_cate_sub_ele:hover {
   font-weight:700;
-  color: rgb(84, 44, 108);
+  color: var(--cbase2);
   transition: all 0.1s ease-in-out;
 }
 
@@ -2415,16 +2391,13 @@ i.lupa:hover {
 }
 
 .malla_2_form_regi {
-  /* justify-content: center; */
-  /* align-items: center; */
-  height: 800px; /*360 px*/
+  height: 800px;
   width: var(--ancform);
   margin: 0 var(--margformde) 0 var(--margiz);
-  /* background-color: rgb(204, 156, 0); */
   display:grid;
   grid-template-columns: 1fr;
   grid-template-rows: 72px;
-  gap: 12px 0px; /* 0 px*/
+  gap: 12px 0px;
 }
 
 .form_regi_g {
@@ -2507,19 +2480,19 @@ i.lupa:hover {
   top: 0;
   left: 0;
   /* position: absolute; */
-  background-color: rgb(235, 235, 235);
+  background-color: var(--cbase15);
   font-family: 'Poppins', sans-serif;
   font-size: 12px;
   cursor: text;
   padding: 0px 12px 0px 12px;
-  color: rgb(85, 85, 85);
+  color: var(--cbase16);
   border-color: none;
   border-width: 0;
   transition: all 0.1s ease-in-out;
 }
 
 .inp_gris:focus {
-  border: solid 1px rgb(0, 102, 204);
+  border: solid 1px var(--calt1);
   outline: none;
 }
 
@@ -2529,26 +2502,26 @@ i.lupa:hover {
   /* width: var(--ancform); */
   width: 100%;
   height: 300px;
-  background-color: rgb(235, 235, 235);
+  background-color: var(--cbase15);
   font-family: 'Poppins', sans-serif;
   font-size: 12px;
   cursor: text;
   padding: 0px 12px 0px 12px;
-  color: rgb(85, 85, 85);
+  color: var(--cbase16);
   border-color: none;
   border-width: 0;
   transition: all 0.1s ease-in-out;
 }
 
 .inp_gris_texto:focus {
-  border: solid 1px rgb(0, 102, 204);
+  border: solid 1px var(--calt1);
   outline: none;
 }
 
 .form_regi_e, .form_logi_e, .form_cont_e {
   display: none;
   height: 38px;
-  background-color: rgb(255, 204, 204);
+  background-color: var(--cbase19);
 }
 
 .form_cont_e_mensaje {
@@ -2558,7 +2531,7 @@ i.lupa:hover {
   position: absolute;
   display: none;
   height: 38px;
-  background-color: rgb(255, 204, 204);
+  background-color: var(--cbase19);
 }
 
 .form_regi_error, .form_logi_error, .form_cont_error {
@@ -2567,7 +2540,7 @@ i.lupa:hover {
   justify-content: center;
   height: 38px;
   border-radius: 4px;
-  background-color: rgb(255, 204, 204);
+  background-color: var(--cbase19);
   opacity: 0;
 }
 
@@ -2577,7 +2550,7 @@ i.lupa:hover {
   justify-content: center;
   height: 38px;
   border-radius: 4px;
-  background-color: rgb(204, 255, 204);
+  background-color: var(--calt3);
   opacity: 0;
 }
 
@@ -2586,22 +2559,22 @@ i.lupa:hover {
 }
 
 .inp_incorrecto {
-  border: solid 1px rgb(204, 0, 0);
+  border: solid 1px var(--cbase8);
   opacity: 1;
 }
 
 .inp_correcto {
-  border: solid 1px rgb(0, 204, 0);
+  border: solid 1px var(--cbase9);
   opacity: 1;
 }
 
 .icono_correcto {
-  color: rgba(0, 204, 0, 1);
+  color: var(--calt4);
   opacity: 1;
 }
 
 .icono_incorrecto {
-  color: rgba(204, 0, 0, 1);
+  color: var(--calt5);
   opacity: 1;
 }
 
@@ -2615,15 +2588,15 @@ i.lupa:hover {
   margin-bottom: 17px;
   width: 170px;
   height: 42px;
-  background-color: rgb(199, 41, 142);
+  background-color: var(--cbase6);
   border-radius: 4px;
   cursor: pointer;
 }
 
 .boton_enviar:hover {
-  color: rgb(199, 41, 142);
+  color: var(--cbase6);
   background-color: white;
-  border: 1px solid rgb(199, 41, 142);
+  border: 1px solid var(--cbase6);
   transition: all 0.1s ease-in-out;
 }
 
@@ -2637,16 +2610,13 @@ i.lupa:hover {
 }
 
 .form_cont_tot {
-  /* background-color: darkgreen; */
-  height: 1850px; /*513 px*/
+  height: 1850px;
   padding-top: 58px;
 }
 
 .malla_1_form_logi {
   display: flex;
   justify-content: center;
-  /* background-color: rgb(5, 207, 55); */
-  /* align-items: center; */
   height: 221px;
   width: var(--ancform);
   margin: 33px 0 0 var(--margformde);
@@ -2715,12 +2685,8 @@ i.lupa:hover {
 
 
 .malla_2_form_cont {
-  /* justify-content: center; */
-  /* align-items: center; */
   height: auto;
   width: var(--ancform);
-  /* margin: 0 0 0 var(--margformde); */
-  /* background-color: rgb(204, 156, 0); */
   display:grid;
   grid-template-columns: 1fr;
   grid-template-rows: 72px;
@@ -2730,34 +2696,20 @@ i.lupa:hover {
 
 /**************************************************** tarjeta de presentacion*/
 
-/* .malla_2_presentacion {
-  height: 275px;
-  border-radius: 2px;
-  width: var(--ancform);
-  margin: 40px 0 40px var(--margformde);
-  background-color: rgb(0, 255, 170);
-  display:grid;
-  grid-template-columns: 5fr 5fr;
-  grid-template-rows: 100%;
-  gap: 0 0;
-  overflow: hidden;
-} */
 
 .malla_2_presentacion {
   height: 550px;
   border-radius: 2px;
   width: var(--ancform);
   margin: 40px 0 40px var(--margformde);
-  /* background-color: rgb(0, 255, 170); */
   display:grid;
   grid-template-columns: 100%;
   grid-template-rows: 1fr 1 fr;
   gap: 0 0;
-  /* overflow: hidden; */
 }
 
 .datos_presentacion {
-  background-color: rgb(252, 252, 252);
+  background-color: var(--cbase14);
   border-radius: 10px;
   padding-left: 15px;
   height: 275px;
@@ -2770,11 +2722,9 @@ i.lupa:hover {
 }
 
 .mapa_presentacion {
-  /* background-color: rgb(92, 54, 54); */
   margin-top: -275px;
   height: 275px;
   border-radius: 10px;
-  /* overflow: hidden; */
 }
 
 .dato_presentacion {
@@ -2784,17 +2734,12 @@ i.lupa:hover {
 
 .dato_presentacion:hover {
   text-decoration: underline;
-  text-decoration-color: rgb(84, 44, 108);
+  text-decoration-color: var(--cbase2);
   text-decoration-thickness: 2px;
   text-decoration-style: solid;
 }
 
 .envolelemredes {
-  /* height: 275px;
-  border-radius: 2px;
-  width: var(--ancform);
-  margin: 0 0 12px var(--margformde); */
-  /* background-color: rgb(0, 255, 170); */
   text-align: center;
   display:grid;
   grid-template-columns: 5fr 5fr;
@@ -2805,7 +2750,7 @@ i.lupa:hover {
 /*******************************************************************************************/
 
 .prod_precio:hover {
-  color: rgb(128, 128, 128);
+  color: var(--cbase13);
 }
 
 /* .prod_precio {
@@ -2815,7 +2760,6 @@ i.lupa:hover {
 .prod_nombre {
   height: 50px;
   width: 192px;
-  /* background-color: rgb(248, 182, 0); */
 }
 
 /*******************************************************************************************/
@@ -2823,12 +2767,8 @@ i.lupa:hover {
 
 
 .malla_2_detalle {
-  /* justify-content: center; */
-  /* align-items: center; */
-  /* height: 408px;  */
   width: var(--ancform);
   margin: 0 0 0 var(--margformde);
-  /* background-color: rgb(140, 0, 255); */
   display:grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr 1fr;
@@ -2838,7 +2778,6 @@ i.lupa:hover {
 .detalles_galeria {
   width: 100%;
   height: 350px;
-  /* background-color: rgb(248, 248, 248); */
   border-radius: 5px;
   overflow: hidden;
 }
@@ -2847,20 +2786,15 @@ i.lupa:hover {
   height: 250px;
   display: flex;
   justify-content: center;
-  /* background-color: yellow; */
 }
 
 .malla_4_detalle_imap {
-  /* justify-content: center; */
-  /* align-items: center; */
-  /* height: 408px;  */
   padding: 5px;
   width: 100%;
   margin-top: 5px;
   margin-bottom: 5px;
   border-radius: 5px;
-  background-color: rgb(248, 248, 248);
-  /* background-color: rgb(11, 130, 185); */
+  background-color: var(--cbase17);
   display:grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;;
   gap: 0 5px;
@@ -2868,7 +2802,7 @@ i.lupa:hover {
 
 .imagen_peq {
   display: flex;
-  background-color: rgb(255, 255, 255);
+  background-color: var(--cbase11);
   justify-content: center;
   height: 80px;
   width: auto;
@@ -2877,15 +2811,14 @@ i.lupa:hover {
 }
 
 .imagen_peq:hover {
-  border: 1px solid rgb(136, 99, 158);
+  border: 1px solid var(--cbase3);
 }
 
 .detalle_datos {
   padding: 10px;
-  background-color: rgb(248, 248, 248);
+  background-color: var(--cbase17);
   border-radius: 5px;
   height: 250px;
-  /* border-color: 1px solid blue; */
 }
 
 .boton_consulta {
@@ -2893,7 +2826,7 @@ i.lupa:hover {
   margin-bottom: 17px;
   width: 100%;
   height: 40px;
-  background-color: rgb(199, 41, 142);
+  background-color: var(--cbase6);
   border-radius: 4px;
   cursor: pointer;
   display: flex;
@@ -2903,43 +2836,41 @@ i.lupa:hover {
 }
 
 .boton_consulta:hover {
-  color: rgb(199, 41, 142);
+  color: var(--cbase6);
   background-color: white;
-  border: 1px solid rgb(199, 41, 142);
+  border: 1px solid var(--cbase6);
   transition: all 0.1s ease-in-out;
 }
 
 .detalle_descripcion {
   width: var(--ancform);
   margin: -90px 0 50px var(--margformde);
-  /* background-color: rgb(0, 255, 192); */
   border-radius: 5px;
   overflow: hidden;
   padding: 5px;
-  border: 1px solid rgb(192, 192, 192);
+  border: 1px solid var(--cbase19);
 }
 
 .detalle_descripcion_titu {
   width: 140px;
   text-align: center;
-  background-color: rgb(248, 248, 248);
+  background-color: var(--cbase17);
   border-top-right-radius: 3px;
   border-top-left-radius: 3px;
-  border-bottom: 2px solid rgb(134, 48, 167);
+  border-bottom: 2px solid var(--calt2);
 }
 
 .detalle_descripcion_cont {
   text-align: left;
-  /* background-color: chocolate; */
   margin-top: 5px;
   border-bottom-right-radius: 3px;
   border-bottom-left-radius: 3px;
-  border-top: 1px solid rgb(192, 192, 192);
+  border-top: 1px solid var(--cbase19);
 }
 
 .detalle_precio {
   padding-bottom: -5px;
-  border-bottom: 1px solid rgb(192, 192, 192);
+  border-bottom: 1px solid var(--cbase19);
   margin-bottom: 15px;
 }
 
@@ -2948,13 +2879,13 @@ i.lupa:hover {
 }
 
 .select_tam, .select_col {
-  border: 1px solid rgb(134, 48, 167);
+  border: 1px solid var(--calt2);
   border-radius: 5px;
 }
 
 .select_tam:focus, .select_col:focus {
   outline: none;
-  border: 2px solid rgb(245, 54, 135);
+  border: 2px solid var(--cbase5);
 }
 
 
@@ -3094,10 +3025,9 @@ body {
   "header" var(--alhead)
   "slider" var(--alslid)
   "nav" auto
-  "bloque" auto/*var(--albloq480)*/
+  "bloque" auto/
   "footer" var(--alfoot) /
   100%;
-  /* background-color: rgb(0, 238, 255); */
 }
 
 .header {
@@ -3106,7 +3036,6 @@ body {
 }
 
 .slider {
-  /* background-color: rgb(0, 192, 255); */
   grid-area: slider;
   overflow: hidden;
   position: relative;
@@ -3115,32 +3044,24 @@ body {
 .nav {
   z-index: 10;
   margin-top: 0;
-  /* background-color: rgb(213, 235, 15); */
   grid-area: nav;
 }
 
 .bloque, .form_regi_tot, .form_logi_tot, .form_cont_tot, .bloque_nosotros {
-  /* margin: 0px 0 0 var(--margiz); */
   margin: 0 0 0 0;
-  /* width: var(--pagint); */
   width: var(--anchotot);
-  /* height: 2000px; */
-  /* background-color: rgb(0, 192, 0); */
   grid-area: bloque;
 }
 
 .form_regi_tot, .form_logi_tot, .form_cont_tot, .bloque_nosotros {
   margin: 0px var(--sec01) 0 var(--sec03);
-  /* width: var(--pagint); */
   width: var(--sec02);
-  /* height: 2000px; */
-  /* background-color: rgb(0, 192, 0); */
   grid-area: bloque;
 }
 
 
 .footer {
-  background-color: rgb(84, 44, 108);
+  background-color: var(--cbase2);
   grid-area: footer;
 }
 
@@ -3149,7 +3070,7 @@ body {
 .malla_2_header {
   width: 100%;
   margin: 0;
-  background-color: rgb(205, 168, 96);
+  background-color: var(--cbase1);
   gap: 0;
   display:grid;
   grid-template:
@@ -3171,7 +3092,7 @@ body {
 
 .malla_2_registro {
   gap: 0;
-  background-color: rgb(255, 255, 255);
+  background-color: var(--cbase11);
   display:grid;
   grid-area: registro;
   grid-template:
@@ -3216,7 +3137,7 @@ body {
 }
 
 .registrarse:hover, .login:hover {
-  color: rgb(204, 78, 174);
+  color: var(--cbase7);
   transition: all 0.1s ease-in-out;
 }
 
@@ -3257,7 +3178,7 @@ body {
   width: var(--anbona);
   height: var(--alslid);
   cursor: pointer;
-  color: rgba(255, 255, 255);
+  color: var(--calt7);
   opacity: 0.5;
 }
 
@@ -3320,14 +3241,14 @@ body {
 
 .dib1 {
   height: 75px;
-  background-color: rgb(255, 255, 255);
+  background-color: var(--cbase11);
   padding: 7px 0 0 7px;
 }
 
 .dib2 {
   font-size: 10px;
   height: 56px;
-  background-color: rgb(84, 44, 108);
+  background-color: var(--cbase2);
   padding: 2px 0 0 7px;
 }
 
@@ -3413,7 +3334,7 @@ body {
 }
 
 .prom_boton:hover, .prom_boton2:hover {
-  color: rgb(204, 78, 174);
+  color: var(--cbase7);
   background-color: white;
   transition: all 0.1s ease-in-out;
 }
@@ -3436,7 +3357,7 @@ body {
 .nav_hamburguesa {
   display: flex;
   flex-direction: row;
-  background-color: rgb(204, 78, 174);
+  background-color: var(--cbase7);
   gap: 0 10px;
 }
 
@@ -3455,7 +3376,7 @@ body {
   width: var(--anchotot);
   display: flex;
   flex-direction: row;
-  background-color: rgb(134, 48, 167);
+  background-color: var(--calt2);
   gap: 0 10px;
 }
 
@@ -3472,7 +3393,7 @@ body {
   width: var(--anchotot);
   display: flex;
   flex-direction: row;
-  background-color: rgb(134, 48, 167);
+  background-color: var(--calt2);
   gap: 0 10px;
 }
 
@@ -3503,7 +3424,7 @@ body {
   width: 100%;
   height: 150px;
   border-radius: 0;
-  background-color: rgb(134, 48, 167);
+  background-color: var(--calt2);
   display:grid;
   grid-template:
   "productosid" 1fr
@@ -3534,7 +3455,7 @@ body {
   border-radius: 5px;
   border-style: solid;
   border-width: 1px;
-  color: rgb(134, 48, 167);
+  color: var(--calt2);
   background-color: white;
   transition: all 0.1s ease-in-out;
 }
@@ -3544,14 +3465,14 @@ body {
   border-radius: 5px;
   border-style: solid;
   border-width: 1px; */
-  color: rgb(134, 48, 167);
+  color: var(--calt2);
   /* background-color: white; */
   transition: all 0.1s ease-in-out;
 }
 
 /* #productosid:hover, #nosotrosid:hover, #ofertasid:hover, #contactoid:hover{
   border-radius: 5px;
-  color: rgb(134, 48, 167);
+  color: var(--calt2);
   background-color: white;
   border: none;
   transition: all 0.1s ease-in-out;
@@ -3569,7 +3490,7 @@ body {
   border-radius: 5px;
   border-style: solid;
   border-width: 1px;
-  color: rgb(134, 48, 167);
+  color: var(--calt2);
   background-color: white;
   transition: all 0.1s ease-in-out;
 }
@@ -3578,7 +3499,7 @@ body {
   border-radius: 5px;
   border-style: solid;
   border-width: 1px;
-  border-color: rgb(136, 99, 158);
+  border-color: var(--cbase3);
   transition: all 0.1s ease-in-out;
 }
 
@@ -3586,7 +3507,7 @@ body {
   border-radius: 5px;
   border-style: solid;
   border-width: 1px;
-  border-color: rgb(205, 168, 96);
+  border-color: var(--cbase1);
   transition: all 0.1s ease-in-out;
 }
 
@@ -3594,7 +3515,7 @@ body {
   border-radius: 5px;
   border-style: solid;
   border-width: 1px;
-  border-color: rgb(245, 54, 135);
+  border-color: var(--cbase5);
   transition: all 0.1s ease-in-out;
 } */
 
@@ -3626,7 +3547,6 @@ body {
   justify-content: center;
   align-items: start;
   padding: 0 0 75px 0;
-  /* background-color: rgb(235, 9, 9); */
   display:grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: auto;
@@ -3673,15 +3593,15 @@ i.lupa {
   font-size: 20px;
   border-radius: 50%;
   text-align:center;
-  color: rgb(205, 168, 96);
-  background-color: rgb(255, 255, 255);
+  color: var(--cbase1);
+  background-color: var(--cbase11);
   opacity: 0;
   transition: all 0.1s ease-in-out;
 }
 
 i.lupa:hover {
-  color: rgb(255, 255, 255);
-  background-color: rgb(204, 78, 174);
+  color: var(--cbase11);
+  background-color: var(--cbase7);
   opacity: 1;
   transition: all 0.1s ease-in-out;
 }
@@ -3695,7 +3615,7 @@ i.lupa:hover {
 }
 
 .overlay:hover {
-  background-color: rgba(204, 78, 174, 0.4);
+  background-color: var(--csombra3);
   transition: all 0.1s ease-in-out;
 }
 
@@ -3710,7 +3630,7 @@ i.lupa:hover {
 }
 
 .malla_1_categoria:hover a {
-  color: rgb(204, 78, 174);
+  color: var(--cbase7);
   transition: all 0.1s ease-in-out;
 }
 
@@ -3740,7 +3660,7 @@ i.lupa:hover {
 
   justify-content: left;
   align-items: center;
-  background-color: rgb(255, 255, 255);
+  background-color: var(--cbase11);
   grid-area: malla_1_aside;
   display:grid;
   grid-template-rows: repeat(19, auto);
@@ -3781,7 +3701,7 @@ i.lupa:hover {
 .aside_cate_sub_tit {
   cursor: text;
   text-decoration: underline;
-  text-decoration-color: rgb(84, 44, 108);
+  text-decoration-color: var(--cbase2);
   text-decoration-thickness: 1px;
   text-decoration-style: solid;
   font-size: 16px;
@@ -3795,7 +3715,7 @@ i.lupa:hover {
 
 .aside_cate_sub_ele:hover {
   font-weight:700;
-  color: rgb(84, 44, 108);
+  color: var(--cbase2);
   transition: all 0.1s ease-in-out;
 }
 
@@ -3905,16 +3825,13 @@ i.lupa:hover {
 }
 
 .malla_2_form_regi {
-  /* justify-content: center; */
-  /* align-items: center; */
-  height: 800px; /*360 px*/
+  height: 800px;
   width: var(--ancform);
   margin: 0 0 0 0;
-  /* background-color: rgb(204, 156, 0); */
   display:grid;
   grid-template-columns: 1fr;
   grid-template-rows: 72px;
-  gap: 12px 0px; /* 0 px*/
+  gap: 12px 0px;
 }
 
 .form_regi_g {
@@ -3997,19 +3914,19 @@ i.lupa:hover {
   top: 0;
   left: 0;
   /* position: absolute; */
-  background-color: rgb(235, 235, 235);
+  background-color: var(--cbase15);
   font-family: fuente, sans-serif;
   font-size: 12px;
   cursor: text;
   padding: 0px 12px 0px 12px;
-  color: rgb(85, 85, 85);
+  color: var(--cbase16);
   border-color: none;
   border-width: 0;
   transition: all 0.1s ease-in-out;
 }
 
 .inp_gris:focus {
-  border: solid 1px rgb(0, 102, 204);
+  border: solid 1px var(--calt1);
   outline: none;
 }
 
@@ -4019,26 +3936,26 @@ i.lupa:hover {
   /* width: var(--ancform); */
   width: 100%;
   height: 300px;
-  background-color: rgb(235, 235, 235);
+  background-color: var(--cbase15);
   font-family: 'Poppins', sans-serif;
   font-size: 12px;
   cursor: text;
   padding: 0px 12px 0px 12px;
-  color: rgb(85, 85, 85);
+  color: var(--cbase16);
   border-color: none;
   border-width: 0;
   transition: all 0.1s ease-in-out;
 }
 
 .inp_gris_texto:focus {
-  border: solid 1px rgb(0, 102, 204);
+  border: solid 1px var(--calt1);
   outline: none;
 }
 
 .form_regi_e, .form_logi_e, .form_cont_e {
   display: none;
   height: 38px;
-  background-color: rgb(255, 204, 204);
+  background-color: var(--cbase19);
 }
 
 .form_cont_e_mensaje {
@@ -4048,7 +3965,7 @@ i.lupa:hover {
   position: absolute;
   display: none;
   height: 38px;
-  background-color: rgb(255, 204, 204);
+  background-color: var(--cbase19);
 }
 
 .form_regi_error, .form_logi_error, .form_cont_error {
@@ -4057,7 +3974,7 @@ i.lupa:hover {
   justify-content: center;
   height: 38px;
   border-radius: 4px;
-  background-color: rgb(255, 204, 204);
+  background-color: var(--cbase19);
   opacity: 0;
 }
 
@@ -4067,7 +3984,7 @@ i.lupa:hover {
   justify-content: center;
   height: 38px;
   border-radius: 4px;
-  background-color: rgb(204, 255, 204);
+  background-color: var(--calt3);
   opacity: 0;
 }
 
@@ -4076,22 +3993,22 @@ i.lupa:hover {
 }
 
 .inp_incorrecto {
-  border: solid 1px rgb(204, 0, 0);
+  border: solid 1px var(--cbase8);
   opacity: 1;
 }
 
 .inp_correcto {
-  border: solid 1px rgb(0, 204, 0);
+  border: solid 1px var(--cbase9);
   opacity: 1;
 }
 
 .icono_correcto {
-  color: rgba(0, 204, 0, 1);
+  color: var(--calt4);
   opacity: 1;
 }
 
 .icono_incorrecto {
-  color: rgba(204, 0, 0, 1);
+  color: var(--calt5);
   opacity: 1;
 }
 
@@ -4105,15 +4022,15 @@ i.lupa:hover {
   margin-bottom: 17px;
   width: 170px;
   height: 42px;
-  background-color: rgb(199, 41, 142);
+  background-color: var(--cbase6);
   border-radius: 4px;
   cursor: pointer;
 }
 
 .boton_enviar:hover {
-  color: rgb(199, 41, 142);
+  color: var(--cbase6);
   background-color: white;
-  border: 1px solid rgb(199, 41, 142);
+  border: 1px solid var(--cbase6);
   transition: all 0.1s ease-in-out;
 }
 
@@ -4135,8 +4052,6 @@ i.lupa:hover {
 .malla_1_form_logi {
   display: flex;
   justify-content: center;
-  /* background-color: rgb(5, 207, 55); */
-  /* align-items: center; */
   height: 221px;
   width: var(--sec02);
   margin: 33px 0 0 0;
@@ -4207,12 +4122,9 @@ i.lupa:hover {
 
 
 .malla_2_form_cont {
-  /* justify-content: center; */
-  /* align-items: center; */
   height: auto;
   width: var(--sec02);
   margin: 0 0 0 0;
-  /* background-color: rgb(204, 156, 0); */
   display:grid;
   grid-template-columns: 1fr;
   grid-template-rows: 72px;
@@ -4222,25 +4134,11 @@ i.lupa:hover {
 
 /**************************************************** tarjeta de presentacion*/
 
-/* .malla_2_presentacion {
-  height: 275px;
-  border-radius: 2px;
-  width: var(--ancform);
-  margin: 40px 0 40px var(--margformde);
-  background-color: rgb(0, 255, 170);
-  display:grid;
-  grid-template-columns: 5fr 5fr;
-  grid-template-rows: 100%;
-  gap: 0 0;
-  overflow: hidden;
-} */
-
 .malla_2_presentacion {
   height: 550px;
   border-radius: 2px;
   width: var(--sec02);
   margin: 40px 0 40px 0;
-  /* background-color: rgb(0, 255, 170); */
   display:grid;
   grid-template-columns: 100%;
   grid-template-rows: 1fr 1 fr;
@@ -4249,7 +4147,7 @@ i.lupa:hover {
 }
 
 .datos_presentacion {
-  background-color: rgb(252, 252, 252);
+  background-color: var(--cbase14);
   border-radius: 10px;
   padding-left: 15px;
   height: 275px;
@@ -4262,11 +4160,9 @@ i.lupa:hover {
 }
 
 .mapa_presentacion {
-  /* background-color: rgb(92, 54, 54); */
   margin-top: -275px;
   height: 275px;
   border-radius: 10px;
-  /* overflow: hidden; */
 }
 
 .dato_presentacion {
@@ -4276,17 +4172,13 @@ i.lupa:hover {
 
 .dato_presentacion:hover {
   text-decoration: underline;
-  text-decoration-color: rgb(84, 44, 108);
+  text-decoration-color: var(--cbase2);
   text-decoration-thickness: 2px;
   text-decoration-style: solid;
 }
 
 .envolelemredes {
-  /* height: 275px;
-  border-radius: 2px;
-  width: var(--ancform);
-  margin: 0 0 12px var(--margformde); */
-  /* background-color: rgb(0, 255, 170); */
+
   text-align: center;
   display:grid;
   grid-template-columns: 5fr 5fr;
@@ -4297,7 +4189,7 @@ i.lupa:hover {
 /*******************************************************************************************/
 
 .prod_precio:hover {
-  color: rgb(128, 128, 128);
+  color: var(--cbase13);
 }
 
 /* .prod_precio {
@@ -4307,7 +4199,6 @@ i.lupa:hover {
 .prod_nombre {
   height: 50px;
   width: 192px;
-  /* background-color: rgb(248, 182, 0); */
 }
 
 /*******************************************************************************************/
@@ -4315,12 +4206,8 @@ i.lupa:hover {
 
 
 .malla_2_detalle {
-  /* justify-content: center; */
-  /* align-items: center; */
-  /* height: 408px;  */
   width: var(--sec02);
   margin: 0 0 0 var(--sec01);
-  /* background-color: rgb(140, 0, 255); */
   display:grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr 1fr;
@@ -4330,7 +4217,7 @@ i.lupa:hover {
 .detalles_galeria {
   width: 100%;
   height: 350px;
-  /* background-color: rgb(248, 248, 248); */
+  /* background-color: var(--cbase17); */
   border-radius: 5px;
   overflow: hidden;
 }
@@ -4339,20 +4226,16 @@ i.lupa:hover {
   height: 250px;
   display: flex;
   justify-content: center;
-  /* background-color: yellow; */
+  
 }
 
 .malla_4_detalle_imap {
-  /* justify-content: center; */
-  /* align-items: center; */
-  /* height: 408px;  */
   padding: 5px;
   width: 100%;
   margin-top: 5px;
   margin-bottom: 5px;
   border-radius: 5px;
-  background-color: rgb(248, 248, 248);
-  /* background-color: rgb(11, 130, 185); */
+  background-color: var(--cbase17);
   display:grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;;
   gap: 0 5px;
@@ -4360,7 +4243,7 @@ i.lupa:hover {
 
 .imagen_peq {
   display: flex;
-  background-color: rgb(255, 255, 255);
+  background-color: var(--cbase11);
   justify-content: center;
   height: 80px;
   width: auto;
@@ -4369,12 +4252,12 @@ i.lupa:hover {
 }
 
 .imagen_peq:hover {
-  border: 1px solid rgb(136, 99, 158);
+  border: 1px solid var(--cbase3);
 }
 
 .detalle_datos {
   padding: 10px;
-  background-color: rgb(248, 248, 248);
+  background-color: var(--cbase17);
   border-radius: 5px;
   height: 250px;
   /* border-color: 1px solid blue; */
@@ -4385,7 +4268,7 @@ i.lupa:hover {
   margin-bottom: 17px;
   width: 100%;
   height: 40px;
-  background-color: rgb(199, 41, 142);
+  background-color: var(--cbase6);
   border-radius: 4px;
   cursor: pointer;
   display: flex;
@@ -4395,29 +4278,28 @@ i.lupa:hover {
 }
 
 .boton_consulta:hover {
-  color: rgb(199, 41, 142);
+  color: var(--cbase6);
   background-color: white;
-  border: 1px solid rgb(199, 41, 142);
+  border: 1px solid var(--cbase6);
   transition: all 0.1s ease-in-out;
 }
 
 .detalle_descripcion {
   width: var(--sec02);
   margin: -90px 0 50px var(--sec01);
-  /* background-color: rgb(0, 255, 192); */
   border-radius: 5px;
   overflow: hidden;
   padding: 5px;
-  border: 1px solid rgb(192, 192, 192);
+  border: 1px solid var(--cbase19);
 }
 
 .detalle_descripcion_titu {
   width: 140px;
   text-align: center;
-  background-color: rgb(248, 248, 248);
+  background-color: var(--cbase17);
   border-top-right-radius: 3px;
   border-top-left-radius: 3px;
-  border-bottom: 2px solid rgb(134, 48, 167);
+  border-bottom: 2px solid var(--calt2);
 }
 
 .detalle_descripcion_cont {
@@ -4426,12 +4308,12 @@ i.lupa:hover {
   margin-top: 5px;
   border-bottom-right-radius: 3px;
   border-bottom-left-radius: 3px;
-  border-top: 1px solid rgb(192, 192, 192);
+  border-top: 1px solid var(--cbase19);
 }
 
 .detalle_precio {
   padding-bottom: -5px;
-  border-bottom: 1px solid rgb(192, 192, 192);
+  border-bottom: 1px solid var(--cbase19);
   margin-bottom: 15px;
 }
 
@@ -4440,13 +4322,13 @@ i.lupa:hover {
 }
 
 .select_tam, .select_col {
-  border: 1px solid rgb(134, 48, 167);
+  border: 1px solid var(--calt2);
   border-radius: 5px;
 }
 
 .select_tam:focus, .select_col:focus {
   outline: none;
-  border: 2px solid rgb(245, 54, 135);
+  border: 2px solid var(--cbase5);
 }
 
 
@@ -4595,16 +4477,15 @@ i.lupa:hover {
   }
 
   .borde_forma {
-    box-shadow: 5px 10px 18px rgba(0, 0, 0, 0.12);
+    box-shadow: 5px 10px 18px var(--csombra);
   }
 
   .header {
-    background-color: rgb(205, 168, 96);
+    background-color: var(--cbase1);
     grid-area: header;
   }
 
   .slider {
-    /* background-color: rgb(0, 192, 255); */
     grid-area: slider;
     overflow: hidden;
     position: relative;
@@ -4613,19 +4494,17 @@ i.lupa:hover {
   .nav {
     z-index: 10;
     margin-top: -25px;
-    /* background-color: rgb(213, 235, 15); */
     grid-area: nav;
   }
 
   .bloque, .form_regi_tot, .form_logi_tot, .form_cont_tot, .bloque_nosotros {
     margin: -25px 0 0 var(--margiz);
     width: var(--pagint);
-    /* background-color: rgb(0, 192, 0); */
     grid-area: bloque;
   }
 
   .footer {
-    background-color: rgb(84, 44, 108);
+    background-color: var(--cbase2);
     grid-area: footer;
   }
 
@@ -4810,63 +4689,63 @@ i.lupa:hover {
   }
 
   .purpura {
-    color: rgb(84, 44, 108);
+    color: var(--cbase2);
   }
 
   .lavanda {
-    color: rgb(136, 99, 158);
+    color: var(--cbase3);
   }
 
   .morado {
-    color: rgb(134, 48, 167);
+    color: var(--calt2);
   }
 
   .fucsia {
-    color: rgb(245, 54, 135);
+    color: var(--cbase5);
   }
 
   .magenta {
-    color: rgb(199, 41, 142);
+    color: var(--cbase6);
   }
 
   .beige {
-    color: rgb(205, 168, 96);
+    color: var(--cbase1);
   }
 
   .rosado {
-    color: rgb(204, 78, 174);
+    color: var(--cbase7);
   }
 
   .rojo204 {
-    color: rgb(204, 0, 0);
+    color: var(--cbase8);
   }
 
   .verde204 {
-    color: rgb(0, 204, 0);
+    color: var(--cbase9);
   }
 
   .uva {
-    color: rgb(207, 128, 162);
+    color: var(--cbase10);
   }
 
   .blanco {
-    color: rgb(255, 255, 255);
+    color: var(--cbase11);
   }
 
   .blanco80 {
-    color: rgba(255, 255, 255, 0.8);
+    color: var(--csombra2);
   }
 
   .gris51 {
-    color: rgb(51, 51, 51);
+    color: var(--cbase12);
   }
 
   .gris128 {
-    color: rgb(128, 128, 128);
+    color: var(--cbase13);
   }
 
   .gris252 {
-    color: rgb(252, 252, 252);
+    color: var(--cbase14);
   }
 
 
@@ -4887,12 +4766,12 @@ i.lupa:hover {
 
 
   .malla_2_header {
-    /* justify-content: center; */
+    
     align-items: center;
     height: 40px;
     margin: 0 0 0 var(--margiz);
     width: var(--pagint);
-    background-color: rgb(205, 168, 96);
+    background-color: var(--cbase1);
     display:grid;
     grid-template:
     "horario registro" auto /
@@ -4902,8 +4781,6 @@ i.lupa:hover {
   .malla_3_horario {
     align-items: center;
       margin: 0;
-    /* background-color: blue; */
-    /* background-color: rgb(250, 246, 3); */
     display:grid;
     grid-area: horario;
     grid-template:
@@ -4916,21 +4793,18 @@ i.lupa:hover {
     text-align: right;
     grid-area: envio;
     font-size: 14px;
-    /* background-color: rgb(218, 19, 19); */
   }
 
   .atencion {
     margin: 0;
     text-align: center;
     grid-area: atencion;
-    /* background-color: rgb(20, 34, 231); */
   }
 
   .horar {
     margin: 0;
     text-align: left;
     grid-area: horar;
-    /* background-color: rgb(95, 138, 16); */
   }
 
   .malla_2_registro {
@@ -4939,7 +4813,7 @@ i.lupa:hover {
     height: 40px;
     /* padding: 5px; */
     gap: 5px;
-    background-color: rgb(255, 255, 255);
+    background-color: var(--cbase11);
     display:grid;
     grid-area: registro;
     grid-template:
@@ -4951,7 +4825,6 @@ i.lupa:hover {
     margin: 0;
     text-align: right;
     grid-area: login;
-    /* background-color: rgb(231, 20, 73); */
   }
 
   .registrarse {
@@ -4961,7 +4834,7 @@ i.lupa:hover {
   }
 
   .registrarse:hover, .login:hover {
-    color: rgb(204, 78, 174);
+    color: var(--cbase7);
     transition: all 0.1s ease-in-out;
   }
 
@@ -5005,7 +4878,7 @@ i.lupa:hover {
     width: var(--anbona);
     height: var(--alslid);
     cursor: pointer;
-    color: rgba(255, 255, 255);
+    color: var(--calt7);
     opacity: 0.5;
   }
 
@@ -5044,7 +4917,6 @@ i.lupa:hover {
     margin-left: var(--margiz);
     top: var(--ubavis);
     left: 0;
-    /* background-color: rgba(0, 255, 85, 0.842); */
     display:grid;
     grid-template:
     "logo promocion" auto /
@@ -5066,13 +4938,13 @@ i.lupa:hover {
 
   .dib1 {
     height: 124px;
-    background-color: rgb(255, 255, 255);
+    background-color: var(--cbase11);
     padding: 19px 0 0 19px;
   }
 
   .dib2 {
     height: 90px;
-    background-color: rgb(84, 44, 108);
+    background-color: var(--cbase2);
     padding: 5px 0 0 19px;
   }
 
@@ -5139,13 +5011,13 @@ i.lupa:hover {
   }
 
   .prom_boton:hover, .prom_boton2:hover {
-    color: rgb(204, 78, 174);
+    color: var(--cbase7);
     background-color: white;
     transition: all 0.1s ease-in-out;
   }
 
   /* .prom_boton2:hover ver_prod, .prom_boton:hover ver_prod{
-    color: rgb(204, 78, 174);
+    color: var(--cbase7);
   } */
 
   /*********************************** Area de las animaciones de la barra navegacion*/
@@ -5197,7 +5069,7 @@ i.lupa:hover {
     border-radius: 5px;
     border-style: solid;
     border-width: 1px;
-    border-color: rgb(199, 41, 142);
+    border-color: var(--cbase6);
     transition: all 0.1s ease-in-out;
   }
 
@@ -5205,7 +5077,7 @@ i.lupa:hover {
     border-radius: 5px;
     border-style: solid;
     border-width: 1px;
-    border-color: rgb(136, 99, 158);
+    border-color: var(--cbase3);
     transition: all 0.1s ease-in-out;
   }
 
@@ -5213,7 +5085,7 @@ i.lupa:hover {
     border-radius: 5px;
     border-style: solid;
     border-width: 1px;
-    border-color: rgb(205, 168, 96);
+    border-color: var(--cbase1);
     transition: all 0.1s ease-in-out;
   }
 
@@ -5221,13 +5093,11 @@ i.lupa:hover {
     border-radius: 5px;
     border-style: solid;
     border-width: 1px;
-    border-color: rgb(245, 54, 135);
+    border-color: var(--cbase5);
     transition: all 0.1s ease-in-out;
   }
 
   .malla_2_bloque {
-    /* padding: 5px; */
-    /* background-color: rgb(3, 252, 86); */
     display:grid;
     grid-template:
     "malla_1_aside malla_3_main" auto /
@@ -5239,7 +5109,6 @@ i.lupa:hover {
     justify-content: center;
     align-items: start;
     padding: 0 0 75px 0;
-    /* background-color: rgb(235, 9, 9); */
     display:grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
@@ -5253,10 +5122,7 @@ i.lupa:hover {
     justify-content: center;
     text-align: center;
     padding-top: 5px;
-    /* background-color: rgb(0, 255, 21);  */
     display:grid;
-    /* grid-template-rows: 210px, 20px; */
-    /* grid-template-rows: 210px, 50px; */
   }
 
   .prod_item {
@@ -5287,15 +5153,15 @@ i.lupa:hover {
     font-size: 20px;
     border-radius: 50%;
     text-align:center;
-    color: rgb(205, 168, 96);
-    background-color: rgb(255, 255, 255);
+    color: var(--cbase1);
+    background-color: var(--cbase11);
     opacity: 0;
     transition: all 0.1s ease-in-out;
   }
 
   i.lupa:hover {
-    color: rgb(255, 255, 255);
-    background-color: rgb(204, 78, 174);
+    color: var(--cbase11);
+    background-color: var(--cbase7);
     opacity: 1;
     transition: all 0.1s ease-in-out;
   }
@@ -5307,7 +5173,7 @@ i.lupa:hover {
   }
 
   .overlay:hover {
-    background-color: rgba(204, 78, 174, 0.4);
+    background-color: var(--csombra3);
     transition: all 0.1s ease-in-out;
   }
 
@@ -5322,7 +5188,7 @@ i.lupa:hover {
   }
 
   .malla_1_categoria:hover a {
-    color: rgb(204, 78, 174);
+    color: var(--cbase7);
     transition: all 0.1s ease-in-out;
   }
 
@@ -5335,10 +5201,8 @@ i.lupa:hover {
 
   .malla_1_aside {
     height: 627px;
-    /* width: 348px; */
     justify-content: left;
     align-items: center;
-    /* background-color: rgb(255, 187, 0); */
     grid-area: malla_1_aside;
     display:grid;
     grid-template-rows: repeat(19, auto);
@@ -5346,7 +5210,6 @@ i.lupa:hover {
   }
 
   .aside_cate {
-    /* text-transform: uppercase; */
     transition: all 0.1s ease-in-out;
     font-size: 18px;
   }
@@ -5377,7 +5240,7 @@ i.lupa:hover {
   .aside_cate_sub_tit {
     cursor: text;
     text-decoration: underline;
-    text-decoration-color: rgb(84, 44, 108);
+    text-decoration-color: var(--cbase2);
     text-decoration-thickness: 1px;
     text-decoration-style: solid;
 
@@ -5390,7 +5253,7 @@ i.lupa:hover {
 
   .aside_cate_sub_ele:hover {
     font-weight:700;
-    color: rgb(84, 44, 108);
+    color: var(--cbase2);
     transition: all 0.1s ease-in-out;
   }
 
@@ -5489,16 +5352,13 @@ i.lupa:hover {
   }
 
   .malla_2_form_regi {
-    /* justify-content: center; */
-    /* align-items: center; */
-    height: 408px; /*360 px*/
+    height: 408px;
     width: var(--ancform);
     margin: 0 0 0 var(--margformde);
-    /* background-color: rgb(204, 156, 0); */
     display:grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 72px;
-    gap: 12px 14px; /* 0 px*/
+    gap: 12px 14px;
   }
 
   .form_regi_g {
@@ -5571,19 +5431,19 @@ i.lupa:hover {
     top: 0;
     left: 0;
     /* position: absolute; */
-    background-color: rgb(235, 235, 235);
+    background-color: var(--cbase15);
     font-family: 'Poppins', sans-serif;
     font-size: 12px;
     cursor: text;
     padding: 0px 12px 0px 12px;
-    color: rgb(85, 85, 85);
+    color: var(--cbase16);
     border-color: none;
     border-width: 0;
     transition: all 0.1s ease-in-out;
   }
 
   .inp_gris:focus {
-    border: solid 1px rgb(0, 102, 204);
+    border: solid 1px var(--calt1);
     outline: none;
   }
 
@@ -5593,26 +5453,26 @@ i.lupa:hover {
     /* width: var(--ancform); */
     width: 100%;
     height: 300px;
-    background-color: rgb(235, 235, 235);
+    background-color: var(--cbase15);
     font-family: 'Poppins', sans-serif;
     font-size: 12px;
     cursor: text;
     padding: 0px 12px 0px 12px;
-    color: rgb(85, 85, 85);
+    color: var(--cbase16);
     border-color: none;
     border-width: 0;
     transition: all 0.1s ease-in-out;
   }
 
   .inp_gris_texto:focus {
-    border: solid 1px rgb(0, 102, 204);
+    border: solid 1px var(--calt1);
     outline: none;
   }
 
   .form_regi_e, .form_logi_e, .form_cont_e {
     display: none;
     height: 38px;
-    background-color: rgb(255, 204, 204);
+    background-color: var(--cbase19);
   }
 
   .form_cont_e_mensaje {
@@ -5622,7 +5482,7 @@ i.lupa:hover {
     position: absolute;
     display: none;
     height: 38px;
-    background-color: rgb(255, 204, 204);
+    background-color: var(--cbase19);
   }
 
   .form_regi_error, .form_logi_error, .form_cont_error {
@@ -5631,7 +5491,7 @@ i.lupa:hover {
     justify-content: center;
     height: 38px;
     border-radius: 4px;
-    background-color: rgb(255, 204, 204);
+    background-color: var(--cbase19);
     opacity: 0;
   }
 
@@ -5641,7 +5501,7 @@ i.lupa:hover {
     justify-content: center;
     height: 38px;
     border-radius: 4px;
-    background-color: rgb(204, 255, 204);
+    background-color: var(--calt3);
     opacity: 0;
   }
 
@@ -5650,22 +5510,22 @@ i.lupa:hover {
   }
 
   .inp_incorrecto {
-    border: solid 1px rgb(204, 0, 0);
+    border: solid 1px var(--cbase8);
     opacity: 1;
   }
 
   .inp_correcto {
-    border: solid 1px rgb(0, 204, 0);
+    border: solid 1px var(--cbase9);
     opacity: 1;
   }
 
   .icono_correcto {
-    color: rgba(0, 204, 0, 1);
+    color: var(--calt4);
     opacity: 1;
   }
 
   .icono_incorrecto {
-    color: rgba(204, 0, 0, 1);
+    color: var(--calt5);
     opacity: 1;
   }
 
@@ -5679,15 +5539,15 @@ i.lupa:hover {
     margin-bottom: 17px;
     width: 170px;
     height: 42px;
-    background-color: rgb(199, 41, 142);
+    background-color: var(--cbase6);
     border-radius: 4px;
     cursor: pointer;
   }
 
   .boton_enviar:hover {
-    color: rgb(199, 41, 142);
+    color: var(--cbase6);
     background-color: white;
-    border: 1px solid rgb(199, 41, 142);
+    border: 1px solid var(--cbase6);
     transition: all 0.1s ease-in-out;
   }
 
@@ -5709,8 +5569,6 @@ i.lupa:hover {
   .malla_1_form_logi {
     display: flex;
     justify-content: center;
-    /* background-color: rgb(5, 207, 55); */
-    /* align-items: center; */
     height: 221px;
     width: var(--ancform);
     margin: 33px 0 0 var(--margformde);
@@ -5775,12 +5633,9 @@ i.lupa:hover {
 
 
   .malla_2_form_cont {
-    /* justify-content: center; */
-    /* align-items: center; */
-    height: 324px; /*360 px*/
+    height: 324px;
     width: var(--ancform);
     margin: 0 0 0 var(--margformde);
-    /* background-color: rgb(204, 156, 0); */
     display:grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 72px;
@@ -5798,7 +5653,6 @@ i.lupa:hover {
     border-radius: 2px;
     width: var(--ancform);
     margin: 40px 0 40px var(--margformde);
-    /* background-color: rgb(0, 255, 170); */
     display:grid;
     grid-template-columns: 5fr 5fr;
     grid-template-rows: 100%;
@@ -5807,7 +5661,7 @@ i.lupa:hover {
   }
 
   .datos_presentacion {
-    background-color: rgb(252, 252, 252);
+    background-color: var(--cbase14);
     border-radius: 10px;
     padding-left: 15px;
     height: 100%;
@@ -5820,29 +5674,22 @@ i.lupa:hover {
   }
 
   .mapa_presentacion {
-    /* background-color: rgb(92, 54, 54); */
     border-radius: 10px;
     overflow: hidden;
   }
 
   .dato_presentacion {
     height: 40px;
-    /* background-color: blue; */
   }
 
   .dato_presentacion:hover {
     text-decoration: underline;
-    text-decoration-color: rgb(84, 44, 108);
+    text-decoration-color: var(--cbase2);
     text-decoration-thickness: 2px;
     text-decoration-style: solid;
   }
 
   .envolelemredes {
-    /* height: 275px;
-    border-radius: 2px;
-    width: var(--ancform);
-    margin: 0 0 12px var(--margformde); */
-    /* background-color: rgb(0, 255, 170); */
     text-align: center;
     display:grid;
     grid-template-columns: 5fr 5fr;
@@ -5853,7 +5700,7 @@ i.lupa:hover {
   /*******************************************************************************************/
 
   .prod_precio:hover {
-    color: rgb(128, 128, 128);
+    color: var(--cbase13);
   }
 
   /* .prod_precio {
@@ -5863,7 +5710,6 @@ i.lupa:hover {
   .prod_nombre {
     height: 50px;
     width: 240px;
-    /* background-color: rgb(248, 182, 0); */
   }
 
   /*******************************************************************************************/
@@ -5871,22 +5717,17 @@ i.lupa:hover {
 
 
   .malla_2_detalle {
-    /* justify-content: center; */
-    /* align-items: center; */
-    /* height: 408px;  */
     width: var(--ancform);
     margin: 0 0 0 var(--margformde);
-    /* background-color: rgb(140, 0, 255); */
     display:grid;
     grid-template-columns: 1fr 1fr;
-    /* grid-template-rows: 72px; */
-    gap: 0px 30px; /* 0 px*/
+    gap: 0px 30px;
   }
 
   .detalles_galeria {
     width: 100%;
     height: 600px;
-    /* background-color: rgb(248, 248, 248); */
+    /* background-color: var(--cbase17); */
     border-radius: 5px;
     overflow: hidden;
   }
@@ -5895,20 +5736,16 @@ i.lupa:hover {
     height: 500px;
     display: flex;
     justify-content: center;
-    /* background-color: yellow; */
+    
   }
 
   .malla_4_detalle_imap {
-    /* justify-content: center; */
-    /* align-items: center; */
-    /* height: 408px;  */
     padding: 5px;
     width: 100%;
     margin-top: 5px;
     margin-bottom: 5px;
     border-radius: 5px;
-    background-color: rgb(248, 248, 248);
-    /* background-color: rgb(11, 130, 185); */
+    background-color: var(--cbase17);
     display:grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;;
     gap: 0 5px;
@@ -5916,7 +5753,7 @@ i.lupa:hover {
 
   .imagen_peq {
     display: flex;
-    background-color: rgb(255, 255, 255);
+    background-color: var(--cbase11);
     justify-content: center;
     height: 80px;
     width: auto;
@@ -5925,14 +5762,13 @@ i.lupa:hover {
   }
 
   .imagen_peq:hover {
-    border: 1px solid rgb(136, 99, 158);
+    border: 1px solid var(--cbase3);
   }
 
   .detalle_datos {
     padding: 10px;
-    background-color: rgb(248, 248, 248);
+    background-color: var(--cbase17);
     border-radius: 5px;
-    /* border-color: 1px solid blue; */
   }
 
   .boton_consulta {
@@ -5940,64 +5776,61 @@ i.lupa:hover {
     margin-bottom: 17px;
     width: 220px;
     height: 40px;
-    background-color: rgb(199, 41, 142);
+    background-color: var(--cbase6);
     border-radius: 4px;
     cursor: pointer;
     display: flex;
     align-items: center;
     justify-content: center;
-    /* text-align: center; */
   }
 
   .boton_consulta:hover {
-    color: rgb(199, 41, 142);
+    color: var(--cbase6);
     background-color: white;
-    border: 1px solid rgb(199, 41, 142);
+    border: 1px solid var(--cbase6);
     transition: all 0.1s ease-in-out;
   }
 
   .detalle_descripcion {
     width: var(--ancform);
     margin: 10px 0 50px var(--margformde);
-    /* background-color: rgb(0, 255, 192); */
     border-radius: 5px;
     overflow: hidden;
     padding: 5px;
-    border: 1px solid rgb(192, 192, 192);
+    border: 1px solid var(--cbase19);
   }
 
   .detalle_descripcion_titu {
     width: 140px;
     text-align: center;
-    background-color: rgb(248, 248, 248);
+    background-color: var(--cbase17);
     border-top-right-radius: 3px;
     border-top-left-radius: 3px;
-    border-bottom: 2px solid rgb(134, 48, 167);
+    border-bottom: 2px solid var(--calt2);
   }
 
   .detalle_descripcion_cont {
     text-align: left;
-    /* background-color: chocolate; */
     margin-top: 5px;
     border-bottom-right-radius: 3px;
     border-bottom-left-radius: 3px;
-    border-top: 1px solid rgb(192, 192, 192);
+    border-top: 1px solid var(--cbase19);
   }
 
   .detalle_precio {
     padding-bottom: -5px;
-    border-bottom: 1px solid rgb(192, 192, 192);
+    border-bottom: 1px solid var(--cbase19);
     margin-bottom: 15px;
   }
 
   .select_tam, .select_col {
-    border: 1px solid rgb(134, 48, 167);
+    border: 1px solid var(--calt2);
     border-radius: 5px;
   }
 
   .select_tam:focus, .select_col:focus {
     outline: none;
-    border: 2px solid rgb(245, 54, 135);
+    border: 2px solid var(--cbase5);
   }
 
 }
