@@ -62,8 +62,9 @@ body {
 
   --csombra: hsla(0, 0%, 0%, 0.12);
   --csombra2: hsla(0, 0%, 100%, 0.8);
-  --csombra3: hsla(175, 55%, 55%, 0.4);
 
+
+  --csombra3: hsla(175, 55%, 55%, 0.4);
 
   --cbase1: hsl(175, 100%, 16%);
   --cbase2: hsl(175, 100%, 32%);
@@ -84,7 +85,30 @@ body {
   --cbase17: hsl(0, 0%, 97%);
   --cbase18: hsl(175, 55%, 42%);
   --cbase19: hsl(0, 0%, 75%);
-  --bsrebb: hsl(120, 100%, 90%);
+}
+
+.colores_extra {
+  --csombra3: hsla(175, 55%, 55%, 0.4);
+
+  --cbase1: hsl(175, 100%, 16%);
+  --cbase2: hsl(175, 100%, 32%);
+  --cbase4: hsl(175, 100%, 42%);
+  --cbase3: hsl(175, 100%, 50%);
+  --cbase5: hsl(175, 100%, 59%);
+  --cbase6: hsl(175, 100%, 47%);
+  --cbase7: hsl(175, 100%, 55%);
+  --cbase8: hsl(175, 100%, 40%);
+  --cbase9: hsl(175, 100%, 40%);
+  --cbase10: hsl(175, 45%, 66%);
+  --cbase11: hsl(0, 0%, 100%);
+  --cbase12: hsl(0, 0%, 20%);
+  --cbase13: hsl(0, 0%, 50%);
+  --cbase14: hsl(0, 0%, 99%);
+  --cbase15: hsl(0, 0%, 92%);
+  --cbase16: hsl(0, 0%, 33%);
+  --cbase17: hsl(0, 0%, 97%);
+  --cbase18: hsl(175, 55%, 42%);
+  --cbase19: hsl(0, 0%, 75%);
 }
 
 body a {
@@ -137,7 +161,7 @@ body p {
 }
 
 .footer {
-  background-color: var(--cbase2);
+  background-color: var(--cbase8);
   grid-area: footer;
 }
 
@@ -819,7 +843,7 @@ i.lupa:hover {
 }
 
 .malla_1_categoria:hover a {
-  color: var(--cbase7);
+  color: var(--cbase1);
   transition: all 0.1s ease-in-out;
 }
 
@@ -1630,7 +1654,7 @@ body {
 }
 
 .footer {
-  background-color: var(--cbase2);
+  background-color: var(--cbase8);
   grid-area: footer;
 }
 
@@ -2196,7 +2220,7 @@ i.lupa:hover {
 }
 
 .malla_1_categoria:hover a {
-  color: var(--cbase7);
+  color: var(--cbase1);
   transition: all 0.1s ease-in-out;
 }
 
@@ -3061,7 +3085,7 @@ body {
 
 
 .footer {
-  background-color: var(--cbase2);
+  background-color: var(--cbase8);
   grid-area: footer;
 }
 
@@ -3630,7 +3654,7 @@ i.lupa:hover {
 }
 
 .malla_1_categoria:hover a {
-  color: var(--cbase7);
+  color: var(--cbase1);
   transition: all 0.1s ease-in-out;
 }
 

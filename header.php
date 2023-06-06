@@ -1,7 +1,7 @@
 <header class="header">
   <div class="malla_2_header">
     <div class="malla_3_horario" id="horarioid">
-      <p class="envio tamf_135 negrita purpura" id="envioid">
+      <p class="envio tamf_135 negrita blanco" id="envioid">
         <i class="fa fa-truck"></i>
         ENVÍOS AL INTERIOR</p>
       <p class="atencion tamf_14 negrita magenta" id="atencionid">HORARIO DE ATENCIÓN</p>
