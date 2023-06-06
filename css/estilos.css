@@ -85,6 +85,7 @@ body {
   --cbase17: hsl(0, 0%, 97%);
   --cbase18: hsl(175, 55%, 42%);
   --cbase19: hsl(0, 0%, 75%);
+  --cbase20: hsla(175, 55%, 55%);
 }
 
 .colores_extra {
@@ -560,7 +561,8 @@ body p {
   width: 100%;
   height: var(--alslid);
   position: absolute;
-  background: radial-gradient(circle at center, rgb(204, 78, 174, 0.4), 33%, rgba(204, 78, 175), 66%, rgba(204, 78, 175));
+  /* background: radial-gradient(circle at center, var(--csombra3), 33%, var(--cbase20), 66%, var(--cbase20)); */
+  background: radial-gradient(circle at center, transparent, 33%, var(--csombra3), 66%, var(--cbase20));  
 }
 
 

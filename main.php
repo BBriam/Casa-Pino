@@ -1,218 +1,219 @@
+
 <div class="malla_3_main tamf_16 nega5 morado">
 
-<article class = "malla_1_categoria">
+<article class="malla_1_categoria">
     <a class="prod_item">
-      <img class="img_fondo" src="static/categorias/catestreg.png">
+      <img class="img_fondo" src="static/categorias/Categoria (5).png">
       <div class="overlay">
         <i class="fa fa-search lupa"></i>
       </div>
     </a>
     <a class="tamf_16 nega5 morado">
-      Estuches de Regalo
+      Categoria 0
     </a>
 </article>
 
-<article class = "malla_1_categoria">
+<article class="malla_1_categoria">
     <a class="prod_item">
-      <img class="img_fondo" src="static/categorias/catcosmet.png">
+      <img class="img_fondo" src="static/categorias/Categoria (1).png">
       <div class="overlay">
         <i class="fa fa-search lupa"></i>
       </div>
     </a>
     <a class="tamf_16 nega5 morado">
-      Cosméticos
+      Categoria 1
     </a>
 </article>
 
-<article class = "malla_1_categoria">
+<article class="malla_1_categoria">
     <a class="prod_item">
-      <img class="img_fondo" src="static/categorias/catacceso.png">
+      <img class="img_fondo" src="static/categorias/Categoria (2).png">
       <div class="overlay">
         <i class="fa fa-search lupa"></i>
       </div>
     </a>
     <a class="tamf_16 nega5 morado">
-      Accesorios
+      Categoria 2
     </a>
 </article>
 
-<article class = "malla_1_categoria">
+<article class="malla_1_categoria">
     <a class="prod_item">
-      <img class="img_fondo" src="static/categorias/catcapila.png">
+      <img class="img_fondo" src="static/categorias/Categoria (3).png">
       <div class="overlay">
         <i class="fa fa-search lupa"></i>
       </div>
     </a>
     <a class="tamf_16 nega5 morado">
-      Capilares
+      Categoria 3
     </a>
 </article>
 
-<article class = "malla_1_categoria">
+<article class="malla_1_categoria">
     <a class="prod_item">
-      <img class="img_fondo" src="static/categorias/catmasfac.png">
+      <img class="img_fondo" src="static/categorias/Categoria (4).png">
       <div class="overlay">
         <i class="fa fa-search lupa"></i>
       </div>
     </a>
     <a class="tamf_16 nega5 morado">
-      Mascaras Faciales
+      Categoria 4
     </a>
 </article>
 
-<article class = "malla_1_categoria">
+<article class="malla_1_categoria">
     <a class="prod_item">
-      <img class="img_fondo" src="static/categorias/cataroamb.png">
+      <img class="img_fondo" src="static/categorias/Categoria (5).png">
       <div class="overlay">
         <i class="fa fa-search lupa"></i>
       </div>
     </a>
     <a class="tamf_16 nega5 morado">
-      Aromatizantes de Ambiente
+      Categoria 5
     </a>
 </article>
 
-<article class = "malla_1_categoria">
+<article class="malla_1_categoria">
     <a class="prod_item">
-      <img class="img_fondo" src="static/categorias/catpenena.png">
+      <img class="img_fondo" src="static/categorias/Categoria (6).png">
       <div class="overlay">
         <i class="fa fa-search lupa"></i>
       </div>
     </a>
     <a class="tamf_16 nega5 morado">
-      Perfumes para Nena
+      Categoria 6
     </a>
 </article>
 
-<article class = "malla_1_categoria">
+<article class="malla_1_categoria">
     <a class="prod_item">
-      <img class="img_fondo" src="static/categorias/catpenene.png">
+      <img class="img_fondo" src="static/categorias/Categoria (7).png">
       <div class="overlay">
         <i class="fa fa-search lupa"></i>
       </div>
     </a>
     <a class="tamf_16 nega5 morado">
-      Perfumes para Nene
+      Categoria 7
     </a>
 </article>
 
-<article class = "malla_1_categoria">
+<article class="malla_1_categoria">
     <a class="prod_item">
-      <img class="img_fondo" src="static/categorias/catpebebe.png">
+      <img class="img_fondo" src="static/categorias/Categoria (8).png">
       <div class="overlay">
         <i class="fa fa-search lupa"></i>
       </div>
     </a>
     <a class="tamf_16 nega5 morado">
-      Perfume para Bebé
+      Categoria 8
     </a>
 </article>
 
-<article class = "malla_1_categoria">
+<article class="malla_1_categoria">
     <a class="prod_item">
-      <img class="img_fondo" src="static/categorias/catperdam.png">
+      <img class="img_fondo" src="static/categorias/Categoria (9).png">
       <div class="overlay">
         <i class="fa fa-search lupa"></i>
       </div>
     </a>
     <a class="tamf_16 nega5 morado">
-      Perfumes para Dama
+      Categoria 9
     </a>
 </article>
 
-<article class = "malla_1_categoria">
+<article class="malla_1_categoria">
     <a class="prod_item">
-      <img class="img_fondo" src="static/categorias/catpercab.png">
+      <img class="img_fondo" src="static/categorias/Categoria (10).png">
       <div class="overlay">
         <i class="fa fa-search lupa"></i>
       </div>
     </a>
     <a class="tamf_16 nega5 morado">
-      Perfumes para Caballero
+      Categoria 10
     </a>
 </article>
 
-<article class = "malla_1_categoria">
+<article class="malla_1_categoria">
     <a class="prod_item">
-      <img class="img_fondo" src="static/categorias/catalcgel.png">
+      <img class="img_fondo" src="static/categorias/Categoria (11).png">
       <div class="overlay">
         <i class="fa fa-search lupa"></i>
       </div>
     </a>
     <a class="tamf_16 nega5 morado">
-      Alcohol en Gel
+      Categoria 11
     </a>
 </article>
 
-<article class = "malla_1_categoria">
+<article class="malla_1_categoria">
     <a class="prod_item">
-      <img class="img_fondo" src="static/categorias/cattintur.png">
+      <img class="img_fondo" src="static/categorias/Categoria (12).png">
       <div class="overlay">
         <i class="fa fa-search lupa"></i>
       </div>
     </a>
     <a class="tamf_16 nega5 morado">
-      Tinturas
+      Categoria 12
     </a>
 </article>
 
-<article class = "malla_1_categoria">
+<article class="malla_1_categoria">
     <a class="prod_item">
-      <img class="img_fondo" src="static/categorias/catdepila.png">
+      <img class="img_fondo" src="static/categorias/Categoria (13).png">
       <div class="overlay">
         <i class="fa fa-search lupa"></i>
       </div>
     </a>
     <a class="tamf_16 nega5 morado">
-      Depilatorios
+      Categoria 13
     </a>
 </article>
 
-<article class = "malla_1_categoria">
+<article class="malla_1_categoria">
     <a class="prod_item">
-      <img class="img_fondo" src="static/categorias/catcuiper.png">
+      <img class="img_fondo" src="static/categorias/Categoria (14).png">
       <div class="overlay">
         <i class="fa fa-search lupa"></i>
       </div>
     </a>
     <a class="tamf_16 nega5 morado">
-      Cuidado Personal
+      Categoria 14
     </a>
 </article>
 
-<article class = "malla_1_categoria">
+<article class="malla_1_categoria">
     <a class="prod_item">
-      <img class="img_fondo" src="static/categorias/catprosol.png">
+      <img class="img_fondo" src="static/categorias/Categoria (15).png">
       <div class="overlay">
         <i class="fa fa-search lupa"></i>
       </div>
     </a>
     <a class="tamf_16 nega5 morado">
-      Protectores Solares
+      Categoria 15
     </a>
 </article>
 
-<article class = "malla_1_categoria">
+<article class="malla_1_categoria">
     <a class="prod_item" href="subcategorias.php?c=17">
-      <img class="img_fondo" src="static/categorias/catpedicu.png">
+      <img class="img_fondo" src="static/categorias/Categoria (16).png">
       <div class="overlay">
         <i class="fa fa-search lupa"></i>
       </div>
     </a>
     <a class="tamf_16 nega5 morado" href="subcategorias.php?c=17">
-      Pediculosis
+      Categoria 16
     </a>
 </article>
 
-<article class = "malla_1_categoria">
+<article class="malla_1_categoria">
     <a class="prod_item">
-      <img class="img_fondo" src="static/categorias/catrepins.png">
+      <img class="img_fondo" src="static/categorias/Categoria (17).png">
       <div class="overlay">
         <i class="fa fa-search lupa"></i>
       </div>
     </a>
     <a class="tamf_16 nega5 morado">
-      Repelente de Insectos
+      Categoria 17
     </a>
 </article>
 

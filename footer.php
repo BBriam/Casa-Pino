@@ -8,21 +8,21 @@
         </div>
 
         <div id="parrafosfoot1">
-          <a class="tamf_13 blanco elemfooter" href="https://goo.gl/maps/o1cae6jgbpuuHGEL6" target="_blank">
+          <a class="tamf_13 blanco elemfooter" href="https://goo.gl/maps/VgBpfk3QAWSdEP9L8" target="_blank">
             <i class="fa fa-map-marker beige"></i>
-            Pasteur 127 - CABA
+            Av 9 de Julio S/N - CABA
           </a>
-          <a class="tamf_13 blanco elemfooter" href="tel:+541149527534" target="_blank">
+          <a class="tamf_13 blanco elemfooter" href="tel:+541122334455" target="_blank">
             <i class="fa fa-phone beige"></i>
-            (011) 4952-7534
+            (011) 2233-4455
           </a>
-          <a class="tamf_13 blanco elemfooter" href="https://api.whatsapp.com/send?phone=5491140696478" target="_blank">
+          <a class="tamf_13 blanco elemfooter" href="https://api.whatsapp.com/send?phone=5491122334455" target="_blank">
             <i class="fa fa-whatsapp beige"></i>
-            +54 9 11 4069 6478
+            +54 9 11 2233 4455
           </a>
-          <a class="tamf_13 blanco elemfooter" href="mailto:casayulisrl@gmail.com" target="_blank">
+          <a class="tamf_13 blanco elemfooter" href="mailto:casapinosrl@pmail.com" target="_blank">
             <i class="fa fa-envelope beige"></i>
-            casayulisrl@gmail.com
+            casapinosrl@pmail.com
           </a>
         </div>
 
@@ -35,11 +35,11 @@
           <p class="tamf_18 negrita beige">Seguinos</p>
         </div>
         <div id="parrafosfoot2">
-          <a class="tamf_13 blanco elemfooter" href="https://goo.gl/maps/o1cae6jgbpuuHGEL6">
+          <a class="tamf_13 blanco elemfooter" href="https://www.facebook.com/">
             <i class="fa fa-facebook-official beige"></i>
             /CasaYuli
           </a>
-          <a class="tamf_13 blanco elemfooter" href="https://www.instagram.com/casayulisrl/">
+          <a class="tamf_13 blanco elemfooter" href="https://www.instagram.com/">
             <i class="fa fa-instagram beige"></i>
             @CasaYuli
           </a>
