@@ -37,11 +37,11 @@
         <div id="parrafosfoot2">
           <a class="tamf_13 blanco elemfooter" href="https://www.facebook.com/">
             <i class="fa fa-facebook-official beige"></i>
-            /CasaYuli
+            /CasaPino
           </a>
           <a class="tamf_13 blanco elemfooter" href="https://www.instagram.com/">
             <i class="fa fa-instagram beige"></i>
-            @CasaYuli
+            @CasaPino
           </a>
         </div>
       </div>

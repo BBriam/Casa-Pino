@@ -1265,9 +1265,12 @@ i.lupa:hover {
 } */
 
 .malla_1_nosotros {
-  display: flex;
-  flex-direction: column;
-  padding-left: 15px;
+  display:grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 285px auto;
+  gap: 0 0;
+  text-align: center;
+  margin: 0 1% 0 1%;
 }
 
 .nosotros_contenido {
@@ -2683,10 +2686,21 @@ i.lupa:hover {
 } */
 
 .malla_1_nosotros {
-  display: flex;
-  flex-direction: column;
+  display: grid;
   padding-left: 15px;
+
 }
+
+.nosotros_portada {
+  background-color: blue;
+  width: 100px;
+  height: 285px;
+}
+
+/* .nosotros_portada img {
+  width: 100%;
+  height: auto;
+} */
 
 .nosotros_contenido {
   text-align: center;
@@ -2700,12 +2714,6 @@ i.lupa:hover {
   font-size: 24px;
 }
 
-
-
-.nosotros_portada img {
-  max-width: 450px;
-  height: auto;
-}
 /**************************************************** FORMULARIO LOGIN*/
 
 
@@ -4140,7 +4148,7 @@ i.lupa:hover {
 
 
 .nosotros_portada img {
-  max-width: var(--sec02);
+  max-width: 100%;
   height: auto;
 }
 /**************************************************** FORMULARIO LOGIN*/
@@ -5651,7 +5659,7 @@ i.lupa:hover {
   }
 
   .nosotros_portada img {
-  max-width: 858px;
+  max-width: 100%;
   height: auto;
   }
   /**************************************************** FORMULARIO LOGIN*/
