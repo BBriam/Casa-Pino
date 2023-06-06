@@ -7,45 +7,45 @@
     <div class="datos_presentacion">
 
       <div>
-        <a href="https://goo.gl/maps/o1cae6jgbpuuHGEL6" class="dato_presentacion" target="_blank">
-          <i class="fa fa-map-marker magenta tamf_25"></i>
-          <span class="tamf_25 gris128 nega5">Pasteur 127 · Capital Federal<br>Buenos Aires · Argentina</span>
+        <a href="https://goo.gl/maps/TaauYYXofyja8NRP6" class="dato_presentacion" target="_blank">
+          <i class="fa fa-map-marker purpura tamf_25"></i>
+          <span class="tamf_25 gris128 nega5">Av 9 de Julio S/N · Capital Federal<br>Buenos Aires · Argentina</span>
         </a>
       </div>
 
       <div>
-        <a href="tel:+541149527534" class="dato_presentacion" target="_blank">
-          <i class="fa fa-phone lavanda tamf_25"></i>
-          <span class="tamf_25 gris128 nega5">(011) 4952-7534</span>
+        <a href="tel:+541122334455" class="dato_presentacion" target="_blank">
+          <i class="fa fa-phone purpura tamf_25"></i>
+          <span class="tamf_25 gris128 nega5">(011) 2233-4455</span>
         </a>
       </div>
 
       <div>
-        <a href="https://api.whatsapp.com/send?phone=5491140696478" class="dato_presentacion" target="_blank">
-          <i class="fa fa-whatsapp beige tamf_25"></i>
-          <span class="tamf_25 gris128 nega5">+54 9 11 4069 6478</span>
+        <a href="https://api.whatsapp.com/send?phone=5491166778899" class="dato_presentacion" target="_blank">
+          <i class="fa fa-whatsapp purpura tamf_25"></i>
+          <span class="tamf_25 gris128 nega5">+54 9 11 6677 8899</span>
         </a>
       </div>
 
       <div>
         <a href="mailto:casayulisrl@gmail.com" class="dato_presentacion" target="_blank">
-          <i class="fa fa-envelope fucsia tamf_25"></i>
-          <span class="tamf_25 gris128 nega5">casayulisrl@gmail.com</span>
+          <i class="fa fa-envelope purpura tamf_25"></i>
+          <span class="tamf_25 gris128 nega5">casapinosrl@pmail.com</span>
         </a>
       </div>
 
       <div class="envolelemredes">
-        <a href="https://goo.gl/maps/o1cae6jgbpuuHGEL6" class="dato_presentacion" target="_blank">
+        <a href="https://goo.gl/maps/TaauYYXofyja8NRP6" class="dato_presentacion" target="_blank">
           <i class="fa fa-facebook gris128 tamf_40"></i>
         </a>
-        <a href="https://www.instagram.com/casayulisrl/" class="dato_presentacion" target="_blank">
+        <a href="https://www.instagram.com/" class="dato_presentacion" target="_blank">
           <i class="fa fa-instagram gris128 tamf_40"></i>
         </a>
       </div>
 
     </div>
     <div class="mapa_presentacion">
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5335.7928705685645!2d-58.402993436161!3d-34.60793418939564!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccae95c89daa3%3A0x86fff29668c5032c!2sPasteur%20127%2C%20C1028AAC%20CABA!5e1!3m2!1ses-419!2sar!4v1681967851602!5m2!1ses-419!2sar" width="666" height="275" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2253.379521252902!2d-58.38184362515905!3d-34.6040320853673!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4aa9f0a6da5edb%3A0x11bead4e234e558b!2sObelisco!5e1!3m2!1ses-419!2sar!4v1686036107627!5m2!1ses-419!2sar" width="666" height="275" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
   </div>
 

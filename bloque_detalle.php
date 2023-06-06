@@ -15,15 +15,15 @@
     </div>
 
     <div class="detalle_datos">
-      <div class="detalle_marca tamf_40 morado">Zapping</div>
-      <div class="detalle_producto tamf_40 purpura">Shampoo Pediculosis x 350 ml</div>
+      <div class="detalle_marca tamf_40 morado">Arboles</div>
+      <div class="detalle_producto tamf_40 purpura">Pino amarillo</div>
       <div class="detalle_precio tamf_40 gris128">$317.00</div>
 
       <div class="envoltorio_tam_tip_compra">
         <select name="select_tam_name" class="select_tam tamf_19" id="">
-            <option value="300ml">300 ml</option>
-            <option value="500ml">500 ml</option>
-            <option value="1l">1 l</option>
+            <option value="300cm">300 cm</option>
+            <option value="500cm">500 cm</option>
+            <option value="1m">1 m</option>
         </select>
         <select name="select_col_name" class="select_col tamf_19" id="">
             <option value="naranja">Naranja</option>
@@ -31,7 +31,7 @@
             <option value="magenta">Magenta</option>
             <option value="verde">Verde</option>
         </select>
-        <a class="boton_consulta blanco tamf_15" href="mailto:casayulisrl@gmail.com" target="_blank">
+        <a class="boton_consulta blanco tamf_15" href="mailto:casapinosrl@pmail.com" target="_blank">
           Realice una consulta
         </a>
       </div>
@@ -47,8 +47,9 @@
     </div>
     <div class="detalle_descripcion_cont">
       <p>
-        Mascara capilar con palo santo preventiva contra piojos y liendres de uso diario.
-        No tóxico y sin enjuague
+        pino amarillo, ideal para el cuidado y fortalecimiento de tus suelos.
+        Promueve un crecimiento saludable y protege contra plagas y enfermedades.
+        Producto natural y de fácil siembra
       </p>
     </div>
   </div>
