@@ -6,7 +6,7 @@
   </div>
 
 <div class="lista_aside" id="lista_asideid">
-  <p class="aside_cate tamf_20 rosado">Categoria 0 <i class="fa fa-star"></i></p>
+  <p class="aside_cate tamf_20 rosado">Categoria 1000 <i class="fa fa-star"></i></p>
   <p class="aside_cate tamf_20 rosado">Categoria 1 <i class="fa fa-star"></i></p>
   <p class="aside_cate tamf_20 rosado">Categoria 2 <i class="fa fa-star"></i></p>
   <p class="aside_cate tamf_20 rosado">Categoria 3 <i class="fa fa-star"></i></p>
